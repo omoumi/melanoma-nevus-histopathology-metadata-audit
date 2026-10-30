@@ -1,0 +1,11 @@
+file,image_id,label,license,attribution,caption
+samples/MEL_ISIC_3041861.jpg,ISIC_3041861,MEL,CC-BY,Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital,85 y | female | Trunk
+samples/MEL_ISIC_0055079.jpg,ISIC_0055079,MEL,CC-BY-NC,Hospital Clínic de Barcelona,35 y | female | Lower extremity
+samples/MEL_ISIC_0060228.jpg,ISIC_0060228,MEL,CC-BY-NC,Hospital Clínic de Barcelona,50 y | male | Lower extremity
+samples/NV_ISIC_0031794.jpg,ISIC_0031794,NV,CC-BY-NC,MILK study team,85 y | male | Upper extremity
+samples/NV_ISIC_0063765.jpg,ISIC_0063765,NV,CC-BY-NC,Hospital Clínic de Barcelona,40 y | female | Trunk
+samples/NV_ISIC_1786309.jpg,ISIC_1786309,NV,CC-BY,Memorial Sloan Kettering Cancer Center,70 y | male | Lower extremity
+samples/BKL_ISIC_0022555.jpg,ISIC_0022555,BKL,CC-0,Anonymous,65 y | female | Lower extremity
+samples/OTHER_ISIC_0022622.jpg,ISIC_0022622,OTHER,CC-0,Anonymous,45 y | male | Lower extremity
+samples/OTHER_ISIC_0021181.jpg,ISIC_0021181,OTHER,CC-0,Anonymous,40 y | female | Lower extremity
+samples/OTHER_ISIC_0021958.jpg,ISIC_0021958,OTHER,CC-0,Anonymous,75 y | male | Head and neck

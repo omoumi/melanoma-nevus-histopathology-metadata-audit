@@ -1,0 +1,19 @@
+,column,reason_excluded,v_corrected,p_naive
+0,attribution,acquisition (contributing institution),0.16000777416057202,2.132461392279529e-272
+1,copyright_license,administrative,0.1171333121362167,2.958753885748209e-103
+2,diagnosis_1,label,0.9246446889418528,0.0
+3,diagnosis_2,label,0.9561214610296522,0.0
+4,diagnosis_3,label,0.9998026751591104,0.0
+5,diagnosis_4,label,0.21766776206587227,0.0
+6,diagnosis_5,label,0.13283244979948022,9.492157546385384e-194
+7,concomitant_biopsy,label leak (biopsy decision),0.011555797195532295,0.14666371057719804
+8,melanocytic,label leak (derived from the diagnosis),0.021326470933615338,0.011355642358343679
+9,mel_ulcer,label leak (melanoma histology),0.09237900622090345,1.0639724303503406e-63
+10,mel_mitotic_index,label leak (melanoma histology),0.03458309022375861,1.3285039714577698e-09
+11,anatom_site_2,"sub-site, recorded only for some sites",0.15935645320956626,1.6892228098490105e-258
+12,anatom_site_3,sub-site,0.22791244061032231,0.0
+13,anatom_site_4,sub-site,0.11041644263640334,5.234008955664167e-98
+14,anatom_site_5,sub-site,0.005224531574260664,0.4148824857200512
+15,anatom_site_special,"sub-site flag, recorded only when it applies",0.0673822029914478,7.313976649871817e-49
+16,dermoscopic_type,acquisition,0.10853523298390302,4.052830410131596e-131
+17,image_manipulation,acquisition,0.13833221441608426,6.251239989735491e-74

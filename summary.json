@@ -1,0 +1,4227 @@
+{
+ "schema_version": "1.0",
+ "dataset": {
+  "name": "melanoma_nevus_histopathology",
+  "title": "Melanoma and nevus (histopathology)",
+  "source_url": "https://api.isic-archive.com/collections/294/",
+  "group_level": "patient (lesion or image where missing)",
+  "acquisition_name": "institution",
+  "fields": {
+   "numeric": [
+    "age_approx",
+    "clin_size_long_diam_mm"
+   ],
+   "categorical": [
+    "sex",
+    "anatom_site_1",
+    "fitzpatrick_skin_type",
+    "personal_hx_mm",
+    "family_hx_mm"
+   ],
+   "core": [
+    "age_approx",
+    "sex",
+    "anatom_site_1"
+   ]
+  }
+ },
+ "license": {
+  "name": "CC-BY-NC (per image: CC-0, CC-BY, CC-BY-NC)",
+  "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "allows_redistribution": true,
+  "non_commercial": true,
+  "citations": [
+   "Melanoma and Nevus Dermoscopy Images with Confirmed Histopathological Diagnosis. ISIC Archive; 2023. doi:10.34970/277003"
+  ],
+  "notes": "Pooled from several contributors; patient id for part of the images only. Some images appear to be the same photos as images in other public collections (e.g. HAM10000, HIBA); the overlap is reported in the cross-dataset comparison."
+ },
+ "inputs": {
+  "collection_id": 294,
+  "doi": "10.34970/277003",
+  "metadata_csv": "/kaggle/temp/isic_294_raw/metadata.csv",
+  "metadata_md5": "bcc1a8c28fe6985de6c0facf466b0550",
+  "n_rows": 18133,
+  "fields_found": [
+   "age_approx",
+   "clin_size_long_diam_mm",
+   "sex",
+   "anatom_site_1",
+   "fitzpatrick_skin_type",
+   "personal_hx_mm",
+   "family_hx_mm"
+  ],
+  "group_level": "patient (lesion or image where missing)",
+  "acquisition_mode": "attribution",
+  "patient_id_share": 0.2755,
+  "duplicate_image_names": 0,
+  "missing_tokens_converted": {
+   "sex": 0,
+   "anatom_site_1": 0,
+   "fitzpatrick_skin_type": 0,
+   "personal_hx_mm": 0,
+   "family_hx_mm": 0
+  },
+  "image_vs_metadata_size_mismatch": 0,
+  "label_counts": {
+   "NV": 10826,
+   "MEL": 7191,
+   "OTHER": 113,
+   "BKL": 3
+  },
+  "license_values": {
+   "CC-BY-NC": 10442,
+   "CC-0": 5298,
+   "CC-BY": 2393
+  },
+  "attribution_values": {
+   "Hospital Cl\u00ednic de Barcelona": 5633,
+   "Anonymous": 5002,
+   "MILK study team": 4172,
+   "Memorial Sloan Kettering Cancer Center": 2045,
+   "Hospital Italiano de Buenos Aires": 349,
+   "Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital, Pascale Guitera": 295,
+   "Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital": 187,
+   "Department of Dermatology, Hospital Cl\u00ednic de Barcelona": 179,
+   "The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre": 101,
+   "ViDIR Group, Department of Dermatology, Medical University of Vienna": 85,
+   "Department of Dermatology, Medical University of Vienna": 78,
+   "Dr. Julien Anriot": 7
+  }
+ },
+ "versions": {
+  "skinaudit": "0.1.0",
+  "python": "3.13.15",
+  "pandas": "2.3.3",
+  "numpy": "2.1.3",
+  "scipy": "1.16.3",
+  "sklearn": "1.6.1"
+ },
+ "structure": {
+  "n_images": 17743,
+  "n_groups": 9338,
+  "group_level": "patient (lesion or image where missing)",
+  "groups_with_multiple_images": 3790,
+  "max_images_per_group": 33,
+  "max_share_one_group": 0.0019,
+  "groups_with_several_labels": 182,
+  "n_lesions": 7351,
+  "lesions_with_conflicting_labels": 0,
+  "n_patients": 2430,
+  "within_group": {
+   "age_approx": {
+    "groups_with_several_images": 3790,
+    "groups_with_conflicting_values": 144,
+    "groups_all_missing": 44,
+    "groups_partly_missing": 21,
+    "missingness_is_group_level": false
+   },
+   "clin_size_long_diam_mm": {
+    "groups_with_several_images": 3790,
+    "groups_with_conflicting_values": 90,
+    "groups_all_missing": 3687,
+    "groups_partly_missing": 18,
+    "missingness_is_group_level": false
+   },
+   "sex": {
+    "groups_with_several_images": 3790,
+    "groups_with_conflicting_values": 2,
+    "groups_all_missing": 29,
+    "groups_partly_missing": 2,
+    "missingness_is_group_level": false
+   },
+   "anatom_site_1": {
+    "groups_with_several_images": 3790,
+    "groups_with_conflicting_values": 320,
+    "groups_all_missing": 108,
+    "groups_partly_missing": 36,
+    "missingness_is_group_level": false
+   },
+   "fitzpatrick_skin_type": {
+    "groups_with_several_images": 3790,
+    "groups_with_conflicting_values": 1,
+    "groups_all_missing": 3621,
+    "groups_partly_missing": 17,
+    "missingness_is_group_level": false
+   },
+   "personal_hx_mm": {
+    "groups_with_several_images": 3790,
+    "groups_with_conflicting_values": 1,
+    "groups_all_missing": 3351,
+    "groups_partly_missing": 21,
+    "missingness_is_group_level": false
+   },
+   "family_hx_mm": {
+    "groups_with_several_images": 3790,
+    "groups_with_conflicting_values": 0,
+    "groups_all_missing": 3376,
+    "groups_partly_missing": 21,
+    "missingness_is_group_level": false
+   }
+  }
+ },
+ "class_counts": {
+  "MEL": 7001,
+  "NV": 10631,
+  "BKL": 3,
+  "OTHER": 108
+ },
+ "harmonized_classes": {
+  "taxonomy": "isic_archive",
+  "level1": {
+   "images": {
+    "malignant": 7011,
+    "benign": 10655,
+    "indeterminate": 77
+   },
+   "groups": {
+    "malignant": 3308,
+    "benign": 6180,
+    "indeterminate": 27
+   }
+  },
+  "level2": {
+   "images": {
+    "MEL": 7001,
+    "NV": 10631,
+    "BCC": 0,
+    "SCC": 0,
+    "AK": 0,
+    "BKL": 3,
+    "DF": 0,
+    "VASC": 0,
+    "OTHER": 108,
+    "UNSPECIFIED": 0
+   },
+   "groups": {
+    "MEL": 3305,
+    "NV": 6170,
+    "BCC": 0,
+    "SCC": 0,
+    "AK": 0,
+    "BKL": 1,
+    "DF": 0,
+    "VASC": 0,
+    "OTHER": 44,
+    "UNSPECIFIED": 0
+   }
+  },
+  "shared_classes_present": [
+   "MEL",
+   "NV",
+   "BKL"
+  ],
+  "ambiguous_share": 0.0043,
+  "unspecified_share": 0.0
+ },
+ "acquisition_counts": {
+  "Hospital Cl\u00ednic de Barcelona": 5629,
+  "Anonymous": 4619,
+  "MILK study team": 4171,
+  "Memorial Sloan Kettering Cancer Center": 2045,
+  "Hospital Italiano de Buenos Aires": 348,
+  "Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital, Pascale Guitera": 295,
+  "Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital": 186,
+  "Department of Dermatology, Hospital Cl\u00ednic de Barcelona": 179,
+  "The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre": 101,
+  "ViDIR Group, Department of Dermatology, Medical University of Vienna": 85,
+  "Department of Dermatology, Medical University of Vienna": 78,
+  "Dr. Julien Anriot": 7
+ },
+ "acquisition_vs_label_v_corrected": 0.16000777416057202,
+ "missing_rate": {
+  "miss_age_approx": 0.0228,
+  "miss_clin_size_long_diam_mm": 0.8574,
+  "miss_sex": 0.0193,
+  "miss_anatom_site_1": 0.0663,
+  "miss_fitzpatrick_skin_type": 0.9503,
+  "miss_personal_hx_mm": 0.833,
+  "miss_family_hx_mm": 0.8403
+ },
+ "missing_vs_label_v_corrected": {
+  "miss_age_approx": 0.0506,
+  "miss_clin_size_long_diam_mm": 0.1217,
+  "miss_sex": 0.0717,
+  "miss_anatom_site_1": 0.0386,
+  "miss_fitzpatrick_skin_type": 0.0,
+  "miss_personal_hx_mm": 0.1787,
+  "miss_family_hx_mm": 0.1833,
+  "complete": 0.0497,
+  "complete_core": 0.0364
+ },
+ "missing_vs_acquisition_v_corrected": {
+  "miss_age_approx": 0.2495,
+  "miss_clin_size_long_diam_mm": 0.6151,
+  "miss_sex": 0.2546,
+  "miss_anatom_site_1": 0.2304,
+  "miss_fitzpatrick_skin_type": 0.7049,
+  "miss_personal_hx_mm": 0.6074,
+  "miss_family_hx_mm": 0.5815,
+  "complete": 0.4211,
+  "complete_core": 0.2373
+ },
+ "missing_vs_other_fields_max_v_corrected": {
+  "age_approx": 0.0204,
+  "clin_size_long_diam_mm": 0.3504,
+  "sex": 0.0464,
+  "anatom_site_1": 0.0387,
+  "fitzpatrick_skin_type": 0.1492,
+  "personal_hx_mm": 0.2071,
+  "family_hx_mm": 0.2563
+ },
+ "missing_vs_other_fields_within_label_max_v_corrected": {
+  "age_approx": 0.0439,
+  "clin_size_long_diam_mm": 0.295,
+  "sex": 0.0388,
+  "anatom_site_1": 0.0269,
+  "fitzpatrick_skin_type": 0.1512,
+  "personal_hx_mm": 0.1803,
+  "family_hx_mm": 0.2253
+ },
+ "value_association": {
+  "age_approx": 0.1743,
+  "clin_size_long_diam_mm": 0.1197,
+  "sex": 0.0987,
+  "anatom_site_1": 0.1211,
+  "fitzpatrick_skin_type": 0.1657,
+  "personal_hx_mm": 0.1149,
+  "family_hx_mm": 0.139
+ },
+ "excluded_columns_v_corrected": {
+  "attribution": 0.16,
+  "copyright_license": 0.1171,
+  "diagnosis_1": 0.9246,
+  "diagnosis_2": 0.9561,
+  "diagnosis_3": 0.9998,
+  "diagnosis_4": 0.2177,
+  "diagnosis_5": 0.1328,
+  "concomitant_biopsy": 0.0116,
+  "melanocytic": 0.0213,
+  "mel_ulcer": 0.0924,
+  "mel_mitotic_index": 0.0346,
+  "anatom_site_2": 0.1594,
+  "anatom_site_3": 0.2279,
+  "anatom_site_4": 0.1104,
+  "anatom_site_5": 0.0052,
+  "anatom_site_special": 0.0674,
+  "dermoscopic_type": 0.1085,
+  "image_manipulation": 0.1383
+ },
+ "image_properties": {
+  "n_distinct_resolutions": 667,
+  "resolution_vs_label_v_corrected": 0.2062866723520415,
+  "resolution_vs_acquisition_v_corrected": 0.7004712508956619,
+  "megapixels_vs_label_epsilon2": 0.003550843676289314,
+  "image_stats_seconds": 104.6
+ },
+ "shortcut_cv": {
+  "A_missing_indicators": {
+   "n_rows": 17743,
+   "n_groups": 9338,
+   "n_classes": 3,
+   "bacc_mean": 0.6246737370583958,
+   "bacc_sd": 0.021940561907974967,
+   "n_repeats": 5,
+   "bacc_repeat_sd": 0.008597447752446134,
+   "bacc_se_corrected": 0.011815717330489178,
+   "bacc_ci_low": 0.6002872950553959,
+   "bacc_ci_high": 0.6490601790613957,
+   "bacc_split1": 0.6268156388372923,
+   "gain": 0.2901017299884629,
+   "gain_ci_low": 0.26509303046639093,
+   "gain_ci_high": 0.31511042951053486,
+   "min_classes_in_test_fold": 3,
+   "every_fold_has_all_classes": true,
+   "test_null": "group",
+   "n_perm": 200,
+   "perm_level": "unit",
+   "n_perm_unit": 50,
+   "n_perm_units": 11070,
+   "perm_movable_share": 1.0,
+   "null_mean": 0.3345720070699329,
+   "null_sd": 0.018994324244573445,
+   "null_q025": 0.29777176631109564,
+   "null_q975": 0.3691558845385387,
+   "p_perm": 0.004975124378109453,
+   "p_perm_holm": 0.03980099502487562,
+   "p_perm_unit": 0.0196078431372549,
+   "null_degenerate": false,
+   "resampled_null": false,
+   "n_perm_group": 200,
+   "null_group_mean": 0.3598412621067949,
+   "null_group_sd": 0.028741441428896158,
+   "null_group_q025": 0.2989546841514277,
+   "null_group_q975": 0.4068408737690572,
+   "p_perm_group": 0.004975124378109453,
+   "group_movable_share": 0.9904,
+   "null_group_degenerate": false,
+   "sensitivity_skipped": null,
+   "chance": 0.3333333333333333,
+   "n_jobs": 4,
+   "seconds": 791.2
+  },
+  "B_acquisition": {
+   "n_rows": 17743,
+   "n_groups": 9338,
+   "n_classes": 3,
+   "bacc_mean": 0.6208025569137636,
+   "bacc_sd": 0.0270670843698718,
+   "n_repeats": 5,
+   "bacc_repeat_sd": 0.003366570784138918,
+   "bacc_se_corrected": 0.014576519016072225,
+   "bacc_ci_low": 0.5907181002829487,
+   "bacc_ci_high": 0.6508870135445786,
+   "bacc_split1": 0.6211897632236498,
+   "gain": 0.2793166421868364,
+   "gain_ci_low": 0.24796859832479634,
+   "gain_ci_high": 0.3106646860488764,
+   "min_classes_in_test_fold": 3,
+   "every_fold_has_all_classes": true,
+   "test_null": "group",
+   "n_perm": 200,
+   "perm_level": "unit",
+   "n_perm_unit": 50,
+   "n_perm_units": 11070,
+   "perm_movable_share": 1.0,
+   "null_mean": 0.34148591472692724,
+   "null_sd": 0.030185499339806313,
+   "null_q025": 0.285981235782093,
+   "null_q975": 0.38889641089550897,
+   "p_perm": 0.004975124378109453,
+   "p_perm_holm": 0.03980099502487562,
+   "p_perm_unit": 0.0196078431372549,
+   "null_degenerate": false,
+   "resampled_null": false,
+   "n_perm_group": 200,
+   "null_group_mean": 0.3722489514719988,
+   "null_group_sd": 0.04088028411819071,
+   "null_group_q025": 0.3026119125197252,
+   "null_group_q975": 0.44582839697167437,
+   "p_perm_group": 0.004975124378109453,
+   "group_movable_share": 0.9904,
+   "null_group_degenerate": false,
+   "sensitivity_skipped": null,
+   "chance": 0.3333333333333333,
+   "n_jobs": 4,
+   "seconds": 739.7
+  },
+  "C_image_size": {
+   "n_rows": 17743,
+   "n_groups": 9338,
+   "n_classes": 3,
+   "bacc_mean": 0.5830782607926279,
+   "bacc_sd": 0.04741947865320868,
+   "n_repeats": 5,
+   "bacc_repeat_sd": 0.011727929282279169,
+   "bacc_se_corrected": 0.025536955620166828,
+   "bacc_ci_low": 0.530372574819807,
+   "bacc_ci_high": 0.6357839467654488,
+   "bacc_split1": 0.5900180941122194,
+   "gain": 0.25106415610024063,
+   "gain_ci_low": 0.19817522082555433,
+   "gain_ci_high": 0.30395309137492693,
+   "min_classes_in_test_fold": 3,
+   "every_fold_has_all_classes": true,
+   "test_null": "group",
+   "n_perm": 200,
+   "perm_level": "unit",
+   "n_perm_unit": 50,
+   "n_perm_units": 11070,
+   "perm_movable_share": 1.0,
+   "null_mean": 0.3320141046923873,
+   "null_sd": 0.01507088363411873,
+   "null_q025": 0.302788776155119,
+   "null_q975": 0.35989947599888295,
+   "p_perm": 0.004975124378109453,
+   "p_perm_holm": 0.03980099502487562,
+   "p_perm_unit": 0.0196078431372549,
+   "null_degenerate": false,
+   "resampled_null": false,
+   "n_perm_group": 200,
+   "null_group_mean": 0.36788318982292745,
+   "null_group_sd": 0.019267436521292508,
+   "null_group_q025": 0.3315069385509195,
+   "null_group_q975": 0.40526100544518173,
+   "p_perm_group": 0.004975124378109453,
+   "group_movable_share": 0.9904,
+   "null_group_degenerate": false,
+   "sensitivity_skipped": null,
+   "chance": 0.3333333333333333,
+   "n_jobs": 4,
+   "seconds": 1045.3
+  },
+  "D_acquisition_plus_indicators": {
+   "n_rows": 17743,
+   "n_groups": 9338,
+   "n_classes": 3,
+   "bacc_mean": 0.6710631490145517,
+   "bacc_sd": 0.02209283757696533,
+   "n_repeats": 5,
+   "bacc_repeat_sd": 0.008667434455734615,
+   "bacc_se_corrected": 0.011897722808227072,
+   "bacc_ci_low": 0.646507456024003,
+   "bacc_ci_high": 0.6956188420051004,
+   "bacc_split1": 0.6733920808090892,
+   "gain": 0.32887550429367607,
+   "gain_ci_low": 0.3031743821180662,
+   "gain_ci_high": 0.35457662646928595,
+   "min_classes_in_test_fold": 3,
+   "every_fold_has_all_classes": true,
+   "test_null": "group",
+   "n_perm": 200,
+   "perm_level": "unit",
+   "n_perm_unit": 50,
+   "n_perm_units": 11070,
+   "perm_movable_share": 1.0,
+   "null_mean": 0.3421876447208756,
+   "null_sd": 0.025994307837202253,
+   "null_q025": 0.29550956010455337,
+   "null_q975": 0.3840155568600104,
+   "p_perm": 0.004975124378109453,
+   "p_perm_holm": 0.03980099502487562,
+   "p_perm_unit": 0.0196078431372549,
+   "null_degenerate": false,
+   "resampled_null": false,
+   "n_perm_group": 200,
+   "null_group_mean": 0.3838079260909079,
+   "null_group_sd": 0.038465892874423,
+   "null_group_q025": 0.30306286680755584,
+   "null_group_q975": 0.4548666568197619,
+   "p_perm_group": 0.004975124378109453,
+   "group_movable_share": 0.9904,
+   "null_group_degenerate": false,
+   "sensitivity_skipped": null,
+   "chance": 0.3333333333333333,
+   "n_jobs": 4,
+   "seconds": 1131.5
+  },
+  "E_values_with_missing": {
+   "n_rows": 17743,
+   "n_groups": 9338,
+   "n_classes": 3,
+   "bacc_mean": 0.49806899108555025,
+   "bacc_sd": 0.03897341004682459,
+   "n_repeats": 5,
+   "bacc_repeat_sd": 0.019157324896385344,
+   "bacc_se_corrected": 0.02098846868416547,
+   "bacc_ci_low": 0.4547509207575264,
+   "bacc_ci_high": 0.5413870614135741,
+   "bacc_split1": 0.4765840394966373,
+   "gain": 0.16614125071053226,
+   "gain_ci_low": 0.12230445627983198,
+   "gain_ci_high": 0.20997804514123253,
+   "min_classes_in_test_fold": 3,
+   "every_fold_has_all_classes": true,
+   "test_null": "group",
+   "n_perm": 200,
+   "perm_level": "unit",
+   "n_perm_unit": 50,
+   "n_perm_units": 11070,
+   "perm_movable_share": 1.0,
+   "null_mean": 0.331927740375018,
+   "null_sd": 0.02303619172954232,
+   "null_q025": 0.2808135835405347,
+   "null_q975": 0.36692567392493947,
+   "p_perm": 0.004975124378109453,
+   "p_perm_holm": 0.03980099502487562,
+   "p_perm_unit": 0.0196078431372549,
+   "null_degenerate": false,
+   "resampled_null": false,
+   "n_perm_group": 200,
+   "null_group_mean": 0.3449534077160251,
+   "null_group_sd": 0.03013058426791651,
+   "null_group_q025": 0.295034306711072,
+   "null_group_q975": 0.4072439999067716,
+   "p_perm_group": 0.004975124378109453,
+   "group_movable_share": 0.9904,
+   "null_group_degenerate": false,
+   "sensitivity_skipped": null,
+   "chance": 0.3333333333333333,
+   "n_jobs": 4,
+   "seconds": 1227.7
+  },
+  "F_values_complete": {
+   "n_rows": 402,
+   "n_groups": 308,
+   "n_classes": 3,
+   "bacc_mean": 0.5521399203383757,
+   "bacc_sd": 0.06656910701125772,
+   "n_repeats": 5,
+   "bacc_repeat_sd": 0.015100596335144878,
+   "bacc_se_corrected": 0.03586522395538115,
+   "bacc_ci_low": 0.4781177362043977,
+   "bacc_ci_high": 0.6261621044723537,
+   "bacc_split1": 0.5584377461692661,
+   "gain": 0.17848711653916888,
+   "gain_ci_low": 0.1036406049629641,
+   "gain_ci_high": 0.25333362811537363,
+   "min_classes_in_test_fold": 2,
+   "every_fold_has_all_classes": false,
+   "test_null": "group",
+   "n_perm": 200,
+   "perm_level": "unit",
+   "n_perm_unit": 50,
+   "n_perm_units": 402,
+   "perm_movable_share": 1.0,
+   "null_mean": 0.3736528037992068,
+   "null_sd": 0.03795318474272806,
+   "null_q025": 0.3175584237949109,
+   "null_q975": 0.448902544916121,
+   "p_perm": 0.004975124378109453,
+   "p_perm_holm": 0.03980099502487562,
+   "p_perm_unit": 0.0196078431372549,
+   "null_degenerate": false,
+   "resampled_null": false,
+   "n_perm_group": 200,
+   "null_group_mean": 0.37665470619310587,
+   "null_group_sd": 0.03928419240479044,
+   "null_group_q025": 0.3140353752655031,
+   "null_group_q975": 0.4600487994555697,
+   "p_perm_group": 0.004975124378109453,
+   "group_movable_share": 1.0,
+   "null_group_degenerate": false,
+   "sensitivity_skipped": null,
+   "chance": 0.3333333333333333,
+   "n_jobs": 4,
+   "seconds": 179.9
+  },
+  "G_core_values_complete_core": {
+   "n_rows": 16348,
+   "n_groups": 8433,
+   "n_classes": 3,
+   "bacc_mean": 0.45900481139707616,
+   "bacc_sd": 0.06070011768681545,
+   "n_repeats": 5,
+   "bacc_repeat_sd": 0.020240008823755998,
+   "bacc_se_corrected": 0.032690234715749104,
+   "bacc_ci_low": 0.3915354829879592,
+   "bacc_ci_high": 0.5264741398061932,
+   "bacc_split1": 0.4680591898858891,
+   "gain": 0.12270734156993046,
+   "gain_ci_low": 0.05489421628463925,
+   "gain_ci_high": 0.19052046685522167,
+   "min_classes_in_test_fold": 3,
+   "every_fold_has_all_classes": true,
+   "test_null": "group",
+   "n_perm": 200,
+   "perm_level": "unit",
+   "n_perm_unit": 50,
+   "n_perm_units": 10095,
+   "perm_movable_share": 1.0,
+   "null_mean": 0.3362974698271457,
+   "null_sd": 0.023365138126937697,
+   "null_q025": 0.30218744896685573,
+   "null_q975": 0.3819186016330163,
+   "p_perm": 0.004975124378109453,
+   "p_perm_holm": 0.03980099502487562,
+   "p_perm_unit": 0.0196078431372549,
+   "null_degenerate": false,
+   "resampled_null": false,
+   "n_perm_group": 200,
+   "null_group_mean": 0.3358156541608349,
+   "null_group_sd": 0.03399593105096126,
+   "null_group_q025": 0.2671624159505623,
+   "null_group_q975": 0.41423180464491843,
+   "p_perm_group": 0.004975124378109453,
+   "group_movable_share": 0.9873,
+   "null_group_degenerate": false,
+   "sensitivity_skipped": null,
+   "chance": 0.3333333333333333,
+   "n_jobs": 4,
+   "seconds": 1029.4
+  },
+  "I_image_border_stats": {
+   "n_rows": 17743,
+   "n_groups": 9338,
+   "n_classes": 3,
+   "bacc_mean": 0.4437607523948885,
+   "bacc_sd": 0.018131149850089623,
+   "n_repeats": 5,
+   "bacc_repeat_sd": 0.010018110432902813,
+   "bacc_se_corrected": 0.009764223104401481,
+   "bacc_ci_low": 0.4236083863742992,
+   "bacc_ci_high": 0.4639131184154778,
+   "bacc_split1": 0.45112058524390086,
+   "gain": 0.10907287993267945,
+   "gain_ci_low": 0.08887624080349357,
+   "gain_ci_high": 0.12926951906186532,
+   "min_classes_in_test_fold": 3,
+   "every_fold_has_all_classes": true,
+   "test_null": "group",
+   "n_perm": 200,
+   "perm_level": "unit",
+   "n_perm_unit": 50,
+   "n_perm_units": 11070,
+   "perm_movable_share": 1.0,
+   "null_mean": 0.33468787246220905,
+   "null_sd": 0.004579131102017878,
+   "null_q025": 0.32833758602660856,
+   "null_q975": 0.34559805513425246,
+   "p_perm": 0.004975124378109453,
+   "p_perm_holm": 0.03980099502487562,
+   "p_perm_unit": 0.0196078431372549,
+   "null_degenerate": false,
+   "resampled_null": false,
+   "n_perm_group": 200,
+   "null_group_mean": 0.35545671070598206,
+   "null_group_sd": 0.004920420650190338,
+   "null_group_q025": 0.34648010295216214,
+   "null_group_q975": 0.36610046421813175,
+   "p_perm_group": 0.004975124378109453,
+   "group_movable_share": 0.9904,
+   "null_group_degenerate": false,
+   "sensitivity_skipped": null,
+   "chance": 0.3333333333333333,
+   "n_jobs": 4,
+   "seconds": 1078.0
+  }
+ },
+ "complete_case": {
+  "complete_n": 402,
+  "complete_share": 0.0227,
+  "complete_core_n": 16348,
+  "complete_core_share": 0.9214,
+  "complete_min_groups_per_class": 0,
+  "complete_core_min_groups_per_class": 1
+ },
+ "rubric": {
+  "n_images": 17743,
+  "has_patient_id": true,
+  "n_metadata_fields": 7,
+  "min_class_images": 3,
+  "min_class_groups_complete_core": 45,
+  "max_missing_rate": 0.9503,
+  "fields_missing_at_group_level": [],
+  "max_missing_vs_other_fields_v": 0.3504,
+  "max_missing_vs_other_fields_within_label_v": 0.295,
+  "redundant_shortcut_sets": [],
+  "permutation_sensitivity": {
+   "A_missing_indicators": {
+    "gain_main_null": 0.2901,
+    "gain_group_null": 0.2648,
+    "gap": 0.0253,
+    "gap_se": 0.0034,
+    "test_null": "group"
+   },
+   "B_acquisition": {
+    "gain_main_null": 0.2793,
+    "gain_group_null": 0.2486,
+    "gap": 0.0308,
+    "gap_se": 0.0052,
+    "test_null": "group"
+   },
+   "C_image_size": {
+    "gain_main_null": 0.2511,
+    "gain_group_null": 0.2152,
+    "gap": 0.0359,
+    "gap_se": 0.0025,
+    "test_null": "group"
+   },
+   "D_acquisition_plus_indicators": {
+    "gain_main_null": 0.3289,
+    "gain_group_null": 0.2873,
+    "gap": 0.0416,
+    "gap_se": 0.0046,
+    "test_null": "group"
+   },
+   "E_values_with_missing": {
+    "gain_main_null": 0.1661,
+    "gain_group_null": 0.1531,
+    "gap": 0.013,
+    "gap_se": 0.0039,
+    "test_null": "group"
+   },
+   "F_values_complete": {
+    "gain_main_null": 0.1785,
+    "gain_group_null": 0.1755,
+    "gap": 0.003,
+    "gap_se": 0.006,
+    "test_null": "group"
+   },
+   "G_core_values_complete_core": {
+    "gain_main_null": 0.1227,
+    "gain_group_null": 0.1232,
+    "gap": -0.0005,
+    "gap_se": 0.0041,
+    "test_null": "group"
+   },
+   "I_image_border_stats": {
+    "gain_main_null": 0.1091,
+    "gain_group_null": 0.0883,
+    "gap": 0.0208,
+    "gap_se": 0.0007,
+    "test_null": "group"
+   }
+  },
+  "informative_missingness_bacc_gain": 0.2901,
+  "informative_missingness_p": 0.004975124378109453,
+  "informative_missingness_p_holm": 0.03980099502487562,
+  "acquisition_shortcut_bacc_gain": 0.2793,
+  "image_size_shortcut_bacc_gain": 0.2511,
+  "image_border_shortcut_bacc_gain": 0.1091,
+  "metadata_signal_bacc_gain": 0.1227,
+  "bacc_gain_ci": {
+   "A_missing_indicators": [
+    0.2651,
+    0.3151
+   ],
+   "B_acquisition": [
+    0.248,
+    0.3107
+   ],
+   "C_image_size": [
+    0.1982,
+    0.304
+   ],
+   "D_acquisition_plus_indicators": [
+    0.3032,
+    0.3546
+   ],
+   "E_values_with_missing": [
+    0.1223,
+    0.21
+   ],
+   "F_values_complete": [
+    0.1036,
+    0.2533
+   ],
+   "G_core_values_complete_core": [
+    0.0549,
+    0.1905
+   ],
+   "I_image_border_stats": [
+    0.0889,
+    0.1293
+   ]
+  },
+  "complete_case_max_abs_smd": {
+   "max_abs_smd": 3.9196,
+   "variable": "acquisition"
+  },
+  "complete_core_max_abs_smd": {
+   "max_abs_smd": 0.0766,
+   "variable": "acquisition"
+  },
+  "label_dependent_missingness": {
+   "fields": "clin_size_long_diam_mm",
+   "variant": "values_only",
+   "auc_gain": 0.0016,
+   "crt_p": 0.0036,
+   "crt_p_holm": 0.0399,
+   "group_swap_p": 0.0036,
+   "group_swap_p_holm": 0.0399,
+   "supported": true,
+   "label_r2": 0.2483
+  },
+  "license": "CC-BY-NC (per image: CC-0, CC-BY, CC-BY-NC)",
+  "samples_can_be_shown": true
+ },
+ "missingness_mechanism": [
+  {
+   "fields": "age_approx",
+   "variant": "with_indicators",
+   "n_rows": 17743,
+   "n_missing": 404,
+   "n_groups_missing": 327,
+   "auc_a": 0.9636767168844458,
+   "auc_b": 0.963572219440065,
+   "auc_gain": -0.00010449744438079112,
+   "fold_gain_mean": 0.002182315971087401,
+   "fold_gain_sd": 0.002443813766503568,
+   "crt_p": 0.2210144927536232,
+   "crt_null_mean": 0.9613601827049305,
+   "crt_null_q975": 0.9657964732398033,
+   "phat_logloss": 0.5974166215540774,
+   "const_logloss": 0.7055803063838065,
+   "label_r2": 0.15329748272607335,
+   "phat_rounds": "86,98,30,41,268",
+   "group_swap_p": 0.14855072463768115,
+   "group_swap_null_mean": 0.9607484246607946,
+   "group_swap_movable_share": 0.9813447556782957,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition",
+   "crt_p_holm": 0.8840579710144928,
+   "group_swap_p_holm": 0.7427536231884058,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "clin_size_long_diam_mm, sex, anatom_site_1, fitzpatrick_skin_type, personal_hx_mm, family_hx_mm, miss_clin_size_long_diam_mm, miss_sex, miss_anatom_site_1, miss_fitzpatrick_skin_type, miss_personal_hx_mm, miss_family_hx_mm, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "age_approx",
+   "variant": "values_only",
+   "n_rows": 16429,
+   "n_missing": 81,
+   "n_groups_missing": 51,
+   "auc_a": 0.7293964301141529,
+   "auc_b": 0.7936048355671552,
+   "auc_gain": 0.06420840545300233,
+   "fold_gain_mean": 0.06159129688210992,
+   "fold_gain_sd": 0.05780116495962783,
+   "crt_p": 0.0036231884057971015,
+   "crt_null_mean": 0.7386512942271036,
+   "crt_null_q975": 0.7764706748588569,
+   "phat_logloss": 0.6079848814274119,
+   "const_logloss": 0.7055090250789209,
+   "label_r2": 0.13823231196879382,
+   "phat_rounds": "66,44,39,30,43",
+   "group_swap_p": 0.007246376811594203,
+   "group_swap_null_mean": 0.7414578072819652,
+   "group_swap_movable_share": 0.9807048511777954,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition",
+   "crt_p_holm": 0.03985507246376812,
+   "group_swap_p_holm": 0.06521739130434782,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "sex, anatom_site_1, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "clin_size_long_diam_mm",
+   "variant": "with_indicators",
+   "n_rows": 17743,
+   "n_missing": 15213,
+   "n_groups_missing": 6943,
+   "auc_a": 0.9964396738903097,
+   "auc_b": 0.997132029528521,
+   "auc_gain": 0.0006923556382112395,
+   "fold_gain_mean": 0.0006690623593939016,
+   "fold_gain_sd": 0.00017770527425696084,
+   "crt_p": 0.0036231884057971015,
+   "crt_null_mean": 0.996515956729804,
+   "crt_null_q975": 0.9966780043539838,
+   "phat_logloss": 0.5316330490464669,
+   "const_logloss": 0.7055803063838065,
+   "label_r2": 0.24653077156991898,
+   "phat_rounds": "66,98,33,46,115",
+   "group_swap_p": 0.0036231884057971015,
+   "group_swap_null_mean": 0.9964947577434328,
+   "group_swap_movable_share": 0.9766104942794341,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 0.03985507246376812,
+   "group_swap_p_holm": 0.03985507246376812,
+   "label_dependence_supported": true,
+   "n_perm": 275.0,
+   "inputs": "age_approx, sex, anatom_site_1, fitzpatrick_skin_type, personal_hx_mm, family_hx_mm, miss_age_approx, miss_sex, miss_anatom_site_1, miss_fitzpatrick_skin_type, miss_personal_hx_mm, miss_family_hx_mm, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "clin_size_long_diam_mm",
+   "variant": "values_only",
+   "n_rows": 16348,
+   "n_missing": 13841,
+   "n_groups_missing": 6059,
+   "auc_a": 0.9692958552841294,
+   "auc_b": 0.970909342000768,
+   "auc_gain": 0.0016134867166385236,
+   "fold_gain_mean": 0.0016954277602607925,
+   "fold_gain_sd": 0.0003342577590474291,
+   "crt_p": 0.0036231884057971015,
+   "crt_null_mean": 0.969435353949677,
+   "crt_null_q975": 0.9699336720271169,
+   "phat_logloss": 0.5307336853759469,
+   "const_logloss": 0.7060216169321538,
+   "label_r2": 0.24827558725167398,
+   "phat_rounds": "114,86,70,58,45",
+   "group_swap_p": 0.0036231884057971015,
+   "group_swap_null_mean": 0.9694295316304211,
+   "group_swap_movable_share": 0.9756545143136776,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 0.03985507246376812,
+   "group_swap_p_holm": 0.03985507246376812,
+   "label_dependence_supported": true,
+   "n_perm": 275.0,
+   "inputs": "age_approx, sex, anatom_site_1, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "sex",
+   "variant": "with_indicators",
+   "n_rows": 17743,
+   "n_missing": 343,
+   "n_groups_missing": 286,
+   "auc_a": 0.9720221339767434,
+   "auc_b": 0.9691420361247949,
+   "auc_gain": -0.0028800978519485376,
+   "fold_gain_mean": -0.0031957107962959697,
+   "fold_gain_sd": 0.006963690742602877,
+   "crt_p": 0.9710144927536232,
+   "crt_null_mean": 0.9734412260739497,
+   "crt_null_q975": 0.9891714922422171,
+   "phat_logloss": 0.5260099504634891,
+   "const_logloss": 0.7055803063838065,
+   "label_r2": 0.2545002380248388,
+   "phat_rounds": "67,114,34,66,284",
+   "group_swap_p": 0.9565217391304348,
+   "group_swap_null_mean": 0.9739115765070023,
+   "group_swap_movable_share": 0.9766104942794341,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 1.0,
+   "group_swap_p_holm": 1.0,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "age_approx, clin_size_long_diam_mm, anatom_site_1, fitzpatrick_skin_type, personal_hx_mm, family_hx_mm, miss_age_approx, miss_clin_size_long_diam_mm, miss_anatom_site_1, miss_fitzpatrick_skin_type, miss_personal_hx_mm, miss_family_hx_mm, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "sex",
+   "variant": "values_only",
+   "n_rows": 16360,
+   "n_missing": 12,
+   "n_groups_missing": 4,
+   "auc_a": null,
+   "auc_b": null,
+   "auc_gain": null,
+   "fold_gain_mean": null,
+   "fold_gain_sd": null,
+   "crt_p": null,
+   "crt_null_mean": null,
+   "crt_null_q975": null,
+   "phat_logloss": null,
+   "const_logloss": null,
+   "label_r2": null,
+   "phat_rounds": null,
+   "group_swap_p": null,
+   "group_swap_null_mean": null,
+   "group_swap_movable_share": null,
+   "group_swap_degenerate": null,
+   "group_swap_strata": null,
+   "crt_p_holm": null,
+   "group_swap_p_holm": null,
+   "label_dependence_supported": null,
+   "n_perm": null,
+   "inputs": "age_approx, anatom_site_1, acquisition, group_size",
+   "skipped": "too few missing (or no observed) rows after selecting inputs"
+  },
+  {
+   "fields": "anatom_site_1",
+   "variant": "with_indicators",
+   "n_rows": 17743,
+   "n_missing": 1176,
+   "n_groups_missing": 826,
+   "auc_a": 0.8042898830927313,
+   "auc_b": 0.8036591470052135,
+   "auc_gain": -0.0006307360875178469,
+   "fold_gain_mean": 0.000418380942591301,
+   "fold_gain_sd": 0.017807685395432957,
+   "crt_p": 0.4166666666666667,
+   "crt_null_mean": 0.8023137922289204,
+   "crt_null_q975": 0.813681434878533,
+   "phat_logloss": 0.5342477876396305,
+   "const_logloss": 0.7055803063838065,
+   "label_r2": 0.24282497285429927,
+   "phat_rounds": "71,95,27,44,137",
+   "group_swap_p": 0.34782608695652173,
+   "group_swap_null_mean": 0.8007614825151623,
+   "group_swap_movable_share": 0.9766104942794341,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 1.0,
+   "group_swap_p_holm": 1.0,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "age_approx, clin_size_long_diam_mm, sex, fitzpatrick_skin_type, personal_hx_mm, family_hx_mm, miss_age_approx, miss_clin_size_long_diam_mm, miss_sex, miss_fitzpatrick_skin_type, miss_personal_hx_mm, miss_family_hx_mm, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "anatom_site_1",
+   "variant": "values_only",
+   "n_rows": 17316,
+   "n_missing": 968,
+   "n_groups_missing": 620,
+   "auc_a": 0.6696622795620866,
+   "auc_b": 0.6712484543311084,
+   "auc_gain": 0.0015861747690217864,
+   "fold_gain_mean": 0.0003658021392297428,
+   "fold_gain_sd": 0.013264059815695745,
+   "crt_p": 0.7862318840579711,
+   "crt_null_mean": 0.6762329452505305,
+   "crt_null_q975": 0.688157977218635,
+   "phat_logloss": 0.5624892552589499,
+   "const_logloss": 0.7044718953711964,
+   "label_r2": 0.20154478985628488,
+   "phat_rounds": "37,55,62,61,255",
+   "group_swap_p": 0.5579710144927537,
+   "group_swap_null_mean": 0.6719701456690387,
+   "group_swap_movable_share": 0.9767844767844768,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 1.0,
+   "group_swap_p_holm": 1.0,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "age_approx, sex, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "fitzpatrick_skin_type",
+   "variant": "with_indicators",
+   "n_rows": 17743,
+   "n_missing": 16861,
+   "n_groups_missing": 8713,
+   "auc_a": 0.9985663759207102,
+   "auc_b": 0.998623061900956,
+   "auc_gain": 5.6685980245774203e-05,
+   "fold_gain_mean": 6.0836300318944936e-05,
+   "fold_gain_sd": 0.00015316045835237098,
+   "crt_p": 0.03985507246376811,
+   "crt_null_mean": 0.9985544938105791,
+   "crt_null_q975": 0.9986307713287557,
+   "phat_logloss": 0.5260100824499164,
+   "const_logloss": 0.7055803063838065,
+   "label_r2": 0.2545000509640235,
+   "phat_rounds": "87,109,31,89,231",
+   "group_swap_p": 0.057971014492753624,
+   "group_swap_null_mean": 0.998550591017823,
+   "group_swap_movable_share": 0.9766104942794341,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 0.2789855072463768,
+   "group_swap_p_holm": 0.4057971014492754,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "age_approx, clin_size_long_diam_mm, sex, anatom_site_1, personal_hx_mm, family_hx_mm, miss_age_approx, miss_clin_size_long_diam_mm, miss_sex, miss_anatom_site_1, miss_personal_hx_mm, miss_family_hx_mm, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "fitzpatrick_skin_type",
+   "variant": "values_only",
+   "n_rows": 16348,
+   "n_missing": 15489,
+   "n_groups_missing": 7822,
+   "auc_a": 0.9682434137231041,
+   "auc_b": 0.9690974878638196,
+   "auc_gain": 0.0008540741407154773,
+   "fold_gain_mean": 0.000956067643881231,
+   "fold_gain_sd": 0.001094022019096437,
+   "crt_p": 0.16304347826086957,
+   "crt_null_mean": 0.9685663225328351,
+   "crt_null_q975": 0.9695614131806033,
+   "phat_logloss": 0.5307336853759469,
+   "const_logloss": 0.7060216169321538,
+   "label_r2": 0.24827558725167398,
+   "phat_rounds": "114,86,70,58,45",
+   "group_swap_p": 0.14855072463768115,
+   "group_swap_null_mean": 0.9685548850446483,
+   "group_swap_movable_share": 0.9756545143136776,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 0.8152173913043479,
+   "group_swap_p_holm": 0.7427536231884058,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "age_approx, sex, anatom_site_1, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "personal_hx_mm+family_hx_mm",
+   "variant": "with_indicators",
+   "n_rows": 17743,
+   "n_missing": 14914,
+   "n_groups_missing": 7453,
+   "auc_a": 0.9778143481564836,
+   "auc_b": 0.9787071895125549,
+   "auc_gain": 0.0008928413560712611,
+   "fold_gain_mean": 0.00100711420632702,
+   "fold_gain_sd": 0.0015689318411507042,
+   "crt_p": 0.06159420289855073,
+   "crt_null_mean": 0.9779338255808769,
+   "crt_null_q975": 0.9787784558889371,
+   "phat_logloss": 0.5301585205912759,
+   "const_logloss": 0.7055803063838065,
+   "label_r2": 0.24862058110945695,
+   "phat_rounds": "153,136,39,100,243",
+   "group_swap_p": 0.06884057971014493,
+   "group_swap_null_mean": 0.9779967005837592,
+   "group_swap_movable_share": 0.9766104942794341,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 0.3695652173913044,
+   "group_swap_p_holm": 0.41304347826086957,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "age_approx, clin_size_long_diam_mm, sex, anatom_site_1, fitzpatrick_skin_type, miss_age_approx, miss_clin_size_long_diam_mm, miss_sex, miss_anatom_site_1, miss_fitzpatrick_skin_type, acquisition, group_size",
+   "skipped": null
+  },
+  {
+   "fields": "personal_hx_mm+family_hx_mm",
+   "variant": "values_only",
+   "n_rows": 16348,
+   "n_missing": 13543,
+   "n_groups_missing": 6562,
+   "auc_a": 0.9149226672605367,
+   "auc_b": 0.9178461868929269,
+   "auc_gain": 0.002923519632390126,
+   "fold_gain_mean": 0.002952871247754163,
+   "fold_gain_sd": 0.003299942999915026,
+   "crt_p": 0.0036231884057971015,
+   "crt_null_mean": 0.9148586946206728,
+   "crt_null_q975": 0.9167110594984774,
+   "phat_logloss": 0.5307336853759469,
+   "const_logloss": 0.7060216169321538,
+   "label_r2": 0.24827558725167398,
+   "phat_rounds": "114,86,70,58,45",
+   "group_swap_p": 0.007246376811594203,
+   "group_swap_null_mean": 0.9144937380833692,
+   "group_swap_movable_share": 0.9756545143136776,
+   "group_swap_degenerate": false,
+   "group_swap_strata": "images per group x acquisition x age band",
+   "crt_p_holm": 0.03985507246376812,
+   "group_swap_p_holm": 0.06521739130434782,
+   "label_dependence_supported": false,
+   "n_perm": 275.0,
+   "inputs": "age_approx, sex, anatom_site_1, acquisition, group_size",
+   "skipped": null
+  }
+ ],
+ "missingness_mechanism_tests": {
+  "rows_tested": 11,
+  "n_perm": 275,
+  "smallest_attainable_holm_p": 0.0399
+ },
+ "model_labels": {
+  "min_class_groups": 10,
+  "merged_into_other": {
+   "BKL": 1
+  },
+  "unspecified_images_left_out": 0,
+  "conflicting_duplicate_images_left_out": 0,
+  "classes": [
+   "MEL",
+   "NV",
+   "OTHER"
+  ]
+ },
+ "permutation": {
+  "requested": "unit",
+  "units": "lesion",
+  "n_perm": 200,
+  "n_perm_reference": 50,
+  "used_per_set": {
+   "A_missing_indicators": "unit",
+   "B_acquisition": "unit",
+   "C_image_size": "unit",
+   "D_acquisition_plus_indicators": "unit",
+   "E_values_with_missing": "unit",
+   "F_values_complete": "unit",
+   "G_core_values_complete_core": "unit",
+   "I_image_border_stats": "unit"
+  },
+  "test_null_per_set": {
+   "A_missing_indicators": "group",
+   "B_acquisition": "group",
+   "C_image_size": "group",
+   "D_acquisition_plus_indicators": "group",
+   "E_values_with_missing": "group",
+   "F_values_complete": "group",
+   "G_core_values_complete_core": "group",
+   "I_image_border_stats": "group"
+  },
+  "holm_family": [
+   "A_missing_indicators",
+   "B_acquisition",
+   "C_image_size",
+   "D_acquisition_plus_indicators",
+   "E_values_with_missing",
+   "F_values_complete",
+   "G_core_values_complete_core",
+   "I_image_border_stats"
+  ],
+  "sensitivity_skipped": {}
+ },
+ "runtime": {
+  "n_jobs": 4,
+  "cpus_detected": 4
+ },
+ "duplicates": {
+  "action": "drop",
+  "confirmed_pairs": 390,
+  "pairs_not_in_this_data": 0,
+  "clusters": 367,
+  "clusters_with_conflicting_labels": 7,
+  "images_before": 18133,
+  "images_dropped": 390,
+  "images_after": 17743,
+  "cluster_records": [
+   {
+    "images": [
+     "ISIC_0000156",
+     "ISIC_0046471"
+    ],
+    "kept": "ISIC_0046471",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012337",
+     "ISIC_0013810"
+    ],
+    "kept": "ISIC_0013810",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012333",
+     "ISIC_0016032"
+    ],
+    "kept": "ISIC_0012333",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012321",
+     "ISIC_0013744"
+    ],
+    "kept": "ISIC_0013744",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012292",
+     "ISIC_0013607"
+    ],
+    "kept": "ISIC_0013607",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012271",
+     "ISIC_0016018"
+    ],
+    "kept": "ISIC_0012271",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012270",
+     "ISIC_0013444",
+     "ISIC_0013460"
+    ],
+    "kept": "ISIC_0013444",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012255",
+     "ISIC_0013381"
+    ],
+    "kept": "ISIC_0013381",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012252",
+     "ISIC_0013377"
+    ],
+    "kept": "ISIC_0013377",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012236",
+     "ISIC_0013312"
+    ],
+    "kept": "ISIC_0013312",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012231",
+     "ISIC_0013298"
+    ],
+    "kept": "ISIC_0013298",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012221",
+     "ISIC_0016002"
+    ],
+    "kept": "ISIC_0012221",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012216",
+     "ISIC_0016001"
+    ],
+    "kept": "ISIC_0012216",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012189",
+     "ISIC_0013143"
+    ],
+    "kept": "ISIC_0013143",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012185",
+     "ISIC_0013135"
+    ],
+    "kept": "ISIC_0013135",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012181",
+     "ISIC_0015986",
+     "ISIC_0015987"
+    ],
+    "kept": "ISIC_0012181",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012180",
+     "ISIC_0013119"
+    ],
+    "kept": "ISIC_0013119",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012175",
+     "ISIC_0015982"
+    ],
+    "kept": "ISIC_0012175",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012171",
+     "ISIC_0013095"
+    ],
+    "kept": "ISIC_0013095",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012152",
+     "ISIC_0015979"
+    ],
+    "kept": "ISIC_0012152",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012144",
+     "ISIC_0013019"
+    ],
+    "kept": "ISIC_0013019",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012140",
+     "ISIC_0013011"
+    ],
+    "kept": "ISIC_0013011",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012139",
+     "ISIC_0013008"
+    ],
+    "kept": "ISIC_0013008",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012128",
+     "ISIC_0012977"
+    ],
+    "kept": "ISIC_0012977",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012127",
+     "ISIC_0012970"
+    ],
+    "kept": "ISIC_0012970",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012123",
+     "ISIC_0012948"
+    ],
+    "kept": "ISIC_0012948",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012122",
+     "ISIC_0012935"
+    ],
+    "kept": "ISIC_0012935",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012112",
+     "ISIC_0012843"
+    ],
+    "kept": "ISIC_0012843",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012367",
+     "ISIC_0013916"
+    ],
+    "kept": "ISIC_0013916",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0067502",
+     "ISIC_0067980"
+    ],
+    "kept": null,
+    "reason": "conflicting labels MEL vs NV"
+   },
+   {
+    "images": [
+     "ISIC_0011205",
+     "ISIC_0024105"
+    ],
+    "kept": "ISIC_0011205",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011135",
+     "ISIC_0021534"
+    ],
+    "kept": "ISIC_0011135",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012405",
+     "ISIC_0013959"
+    ],
+    "kept": "ISIC_0013959",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012418",
+     "ISIC_0013992"
+    ],
+    "kept": "ISIC_0013992",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0022485",
+     "ISIC_0036277"
+    ],
+    "kept": "ISIC_0022485",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0022327",
+     "ISIC_0036106"
+    ],
+    "kept": "ISIC_0022327",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0024033",
+     "ISIC_0036276"
+    ],
+    "kept": "ISIC_0024033",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0022078",
+     "ISIC_0036078"
+    ],
+    "kept": "ISIC_0022078",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014331",
+     "ISIC_2342769"
+    ],
+    "kept": "ISIC_2342769",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014299",
+     "ISIC_3403329"
+    ],
+    "kept": "ISIC_3403329",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014289",
+     "ISIC_7101732"
+    ],
+    "kept": "ISIC_7101732",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014249",
+     "ISIC_0016085"
+    ],
+    "kept": "ISIC_0014249",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014156",
+     "ISIC_0016080"
+    ],
+    "kept": "ISIC_0014156",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014099",
+     "ISIC_0016162"
+    ],
+    "kept": "ISIC_0014099",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0013948",
+     "ISIC_0016084"
+    ],
+    "kept": "ISIC_0013948",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014360",
+     "ISIC_8325226"
+    ],
+    "kept": "ISIC_8325226",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012551",
+     "ISIC_7311296"
+    ],
+    "kept": "ISIC_7311296",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012547",
+     "ISIC_7619041"
+    ],
+    "kept": "ISIC_7619041",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012526",
+     "ISIC_3575814"
+    ],
+    "kept": "ISIC_3575814",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012523",
+     "ISIC_6804655"
+    ],
+    "kept": "ISIC_6804655",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012472",
+     "ISIC_0014091"
+    ],
+    "kept": "ISIC_0014091",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012471",
+     "ISIC_0014086"
+    ],
+    "kept": "ISIC_0014086",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012456",
+     "ISIC_0014039"
+    ],
+    "kept": "ISIC_0014039",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014369",
+     "ISIC_0333091"
+    ],
+    "kept": "ISIC_0333091",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014433",
+     "ISIC_4432898"
+    ],
+    "kept": "ISIC_4432898",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014478",
+     "ISIC_1177153"
+    ],
+    "kept": "ISIC_1177153",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021709",
+     "ISIC_0036279"
+    ],
+    "kept": "ISIC_0021709",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021440",
+     "ISIC_0036286"
+    ],
+    "kept": "ISIC_0021440",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021400",
+     "ISIC_0036275"
+    ],
+    "kept": "ISIC_0021400",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_3275875",
+     "ISIC_8253057"
+    ],
+    "kept": "ISIC_3275875",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021296",
+     "ISIC_0036280"
+    ],
+    "kept": "ISIC_0021296",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0001105",
+     "ISIC_0021188",
+     "ISIC_0036287"
+    ],
+    "kept": "ISIC_0021188",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0020986",
+     "ISIC_0036269"
+    ],
+    "kept": "ISIC_0020986",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014507",
+     "ISIC_2797353"
+    ],
+    "kept": "ISIC_2797353",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014513",
+     "ISIC_3561065"
+    ],
+    "kept": "ISIC_3561065",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014516",
+     "ISIC_1786309"
+    ],
+    "kept": "ISIC_1786309",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0014546",
+     "ISIC_0016153"
+    ],
+    "kept": "ISIC_0014546",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0016053",
+     "ISIC_6847618"
+    ],
+    "kept": "ISIC_6847618",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0016071",
+     "ISIC_5771994"
+    ],
+    "kept": "ISIC_5771994",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0001131",
+     "ISIC_0023706"
+    ],
+    "kept": "ISIC_0023706",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0001135",
+     "ISIC_0036097"
+    ],
+    "kept": "ISIC_0001135",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0001155",
+     "ISIC_0022845",
+     "ISIC_0022846"
+    ],
+    "kept": "ISIC_0022845",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000440",
+     "ISIC_0023763"
+    ],
+    "kept": "ISIC_0023763",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000444",
+     "ISIC_0023807"
+    ],
+    "kept": "ISIC_0023807",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000445",
+     "ISIC_0023814"
+    ],
+    "kept": null,
+    "reason": "conflicting labels MEL vs NV"
+   },
+   {
+    "images": [
+     "ISIC_0000446",
+     "ISIC_0023855"
+    ],
+    "kept": "ISIC_0023855",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000450",
+     "ISIC_0024016"
+    ],
+    "kept": "ISIC_0024016",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000519",
+     "ISIC_0011295",
+     "ISIC_0024015"
+    ],
+    "kept": "ISIC_0011295",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000520",
+     "ISIC_0010302",
+     "ISIC_0023853"
+    ],
+    "kept": "ISIC_0010302",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000434",
+     "ISIC_0023670"
+    ],
+    "kept": "ISIC_0023670",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010142",
+     "ISIC_0022264"
+    ],
+    "kept": "ISIC_0010142",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000400",
+     "ISIC_0021147"
+    ],
+    "kept": "ISIC_0021147",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0069013",
+     "ISIC_0071017"
+    ],
+    "kept": null,
+    "reason": "conflicting labels MEL vs NV"
+   },
+   {
+    "images": [
+     "ISIC_0000279",
+     "ISIC_0000280"
+    ],
+    "kept": "ISIC_0000279",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000399",
+     "ISIC_0001124",
+     "ISIC_0024072"
+    ],
+    "kept": "ISIC_0024072",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000417",
+     "ISIC_0022474"
+    ],
+    "kept": "ISIC_0022474",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000441",
+     "ISIC_0023770"
+    ],
+    "kept": "ISIC_0023770",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0001157",
+     "ISIC_0024109"
+    ],
+    "kept": "ISIC_0024109",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021492",
+     "ISIC_0036263"
+    ],
+    "kept": "ISIC_0021492",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000401",
+     "ISIC_0021020"
+    ],
+    "kept": "ISIC_0021020",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011333",
+     "ISIC_0023263"
+    ],
+    "kept": "ISIC_0011333",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011330",
+     "ISIC_0021224"
+    ],
+    "kept": "ISIC_0011330",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010970",
+     "ISIC_0021592"
+    ],
+    "kept": "ISIC_0010970",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010969",
+     "ISIC_0021589"
+    ],
+    "kept": "ISIC_0010969",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010954",
+     "ISIC_0021347"
+    ],
+    "kept": "ISIC_0010954",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010943",
+     "ISIC_0023782"
+    ],
+    "kept": "ISIC_0010943",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011025",
+     "ISIC_0023587"
+    ],
+    "kept": "ISIC_0011025",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010852",
+     "ISIC_0022339"
+    ],
+    "kept": "ISIC_0010852",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011030",
+     "ISIC_0023608"
+    ],
+    "kept": "ISIC_0011030",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011176",
+     "ISIC_0021706"
+    ],
+    "kept": "ISIC_0011176",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011163",
+     "ISIC_0021530"
+    ],
+    "kept": "ISIC_0011163",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011098",
+     "ISIC_0021379"
+    ],
+    "kept": "ISIC_0011098",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011040",
+     "ISIC_0022383"
+    ],
+    "kept": "ISIC_0011040",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011126",
+     "ISIC_0023705"
+    ],
+    "kept": "ISIC_0011126",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0023755",
+     "ISIC_0036282"
+    ],
+    "kept": "ISIC_0023755",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0023671",
+     "ISIC_0036281"
+    ],
+    "kept": "ISIC_0023671",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0023620",
+     "ISIC_0036274"
+    ],
+    "kept": "ISIC_0023620",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012887",
+     "ISIC_0012989"
+    ],
+    "kept": "ISIC_0012887",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012638",
+     "ISIC_0023803"
+    ],
+    "kept": "ISIC_0012638",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012637",
+     "ISIC_0022463"
+    ],
+    "kept": "ISIC_0012637",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021901",
+     "ISIC_0036102"
+    ],
+    "kept": "ISIC_0021901",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021428",
+     "ISIC_0036264"
+    ],
+    "kept": "ISIC_0021428",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021282",
+     "ISIC_0036260"
+    ],
+    "kept": "ISIC_0021282",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021095",
+     "ISIC_0036273"
+    ],
+    "kept": "ISIC_0021095",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010465",
+     "ISIC_0022680"
+    ],
+    "kept": "ISIC_0010465",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010461",
+     "ISIC_0020972"
+    ],
+    "kept": "ISIC_0010461",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010400",
+     "ISIC_0021542"
+    ],
+    "kept": "ISIC_0010400",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0001147",
+     "ISIC_0021092"
+    ],
+    "kept": "ISIC_0021092",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009875",
+     "ISIC_0023772"
+    ],
+    "kept": "ISIC_0009875",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010362",
+     "ISIC_0023722"
+    ],
+    "kept": "ISIC_0010362",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009895",
+     "ISIC_0023624"
+    ],
+    "kept": "ISIC_0009895",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009896",
+     "ISIC_0023628"
+    ],
+    "kept": "ISIC_0009896",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000521",
+     "ISIC_0010990",
+     "ISIC_0021116"
+    ],
+    "kept": null,
+    "reason": "conflicting labels MEL vs NV"
+   },
+   {
+    "images": [
+     "ISIC_0010105",
+     "ISIC_0023676"
+    ],
+    "kept": "ISIC_0010105",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010200",
+     "ISIC_0021281"
+    ],
+    "kept": "ISIC_0010200",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010216",
+     "ISIC_0024075"
+    ],
+    "kept": "ISIC_0010216",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010350",
+     "ISIC_0022000"
+    ],
+    "kept": "ISIC_0010350",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010079",
+     "ISIC_0012634"
+    ],
+    "kept": "ISIC_0010079",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010018",
+     "ISIC_0021112"
+    ],
+    "kept": "ISIC_0010018",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010567",
+     "ISIC_0021070"
+    ],
+    "kept": "ISIC_0010567",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0001139",
+     "ISIC_0022778"
+    ],
+    "kept": "ISIC_0022778",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010618",
+     "ISIC_0021842"
+    ],
+    "kept": "ISIC_0010618",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010653",
+     "ISIC_0021850"
+    ],
+    "kept": "ISIC_0010653",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000412",
+     "ISIC_0021985"
+    ],
+    "kept": "ISIC_0021985",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000411",
+     "ISIC_0021927"
+    ],
+    "kept": "ISIC_0021927",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000402",
+     "ISIC_0021194"
+    ],
+    "kept": "ISIC_0021194",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010668",
+     "ISIC_0022540"
+    ],
+    "kept": "ISIC_0010668",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010682",
+     "ISIC_0021076"
+    ],
+    "kept": "ISIC_0010682",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000394",
+     "ISIC_0023675"
+    ],
+    "kept": "ISIC_0023675",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010715",
+     "ISIC_0023157"
+    ],
+    "kept": "ISIC_0010715",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010757",
+     "ISIC_0023669"
+    ],
+    "kept": "ISIC_0010757",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000415",
+     "ISIC_0022113"
+    ],
+    "kept": "ISIC_0022113",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010586",
+     "ISIC_0021988"
+    ],
+    "kept": "ISIC_0010586",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010570",
+     "ISIC_0023024"
+    ],
+    "kept": "ISIC_0010570",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000429",
+     "ISIC_0023438"
+    ],
+    "kept": "ISIC_0023438",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009973",
+     "ISIC_0024098"
+    ],
+    "kept": "ISIC_0009973",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000395",
+     "ISIC_0023747"
+    ],
+    "kept": "ISIC_0023747",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009949",
+     "ISIC_0021049"
+    ],
+    "kept": "ISIC_0009949",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012222",
+     "ISIC_0016003"
+    ],
+    "kept": "ISIC_0012222",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010032",
+     "ISIC_0021697"
+    ],
+    "kept": "ISIC_0010032",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012574",
+     "ISIC_0022439"
+    ],
+    "kept": "ISIC_0012574",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009868",
+     "ISIC_0023843"
+    ],
+    "kept": "ISIC_0009868",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010646",
+     "ISIC_0023940"
+    ],
+    "kept": "ISIC_0010646",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011097",
+     "ISIC_0024136"
+    ],
+    "kept": "ISIC_0011097",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011372",
+     "ISIC_0021873"
+    ],
+    "kept": "ISIC_0011372",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010814",
+     "ISIC_0022247"
+    ],
+    "kept": "ISIC_0010814",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011345",
+     "ISIC_0021931"
+    ],
+    "kept": "ISIC_0011345",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010853",
+     "ISIC_0023751"
+    ],
+    "kept": "ISIC_0010853",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011028",
+     "ISIC_0023908"
+    ],
+    "kept": "ISIC_0011028",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011208",
+     "ISIC_0022858",
+     "ISIC_0022859"
+    ],
+    "kept": "ISIC_0011208",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011115",
+     "ISIC_0024042"
+    ],
+    "kept": "ISIC_0011115",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011114",
+     "ISIC_0024038"
+    ],
+    "kept": "ISIC_0011114",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011096",
+     "ISIC_0024132"
+    ],
+    "kept": "ISIC_0011096",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011057",
+     "ISIC_0023809"
+    ],
+    "kept": "ISIC_0011057",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0022574",
+     "ISIC_0036115"
+    ],
+    "kept": "ISIC_0022574",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0013109",
+     "ISIC_0013163"
+    ],
+    "kept": "ISIC_0013109",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012569",
+     "ISIC_0023137"
+    ],
+    "kept": "ISIC_0012569",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010420",
+     "ISIC_0022649"
+    ],
+    "kept": "ISIC_0010420",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009886",
+     "ISIC_0023786"
+    ],
+    "kept": "ISIC_0009886",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010566",
+     "ISIC_0021047"
+    ],
+    "kept": "ISIC_0010566",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010540",
+     "ISIC_0021949"
+    ],
+    "kept": "ISIC_0010540",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010534",
+     "ISIC_0021803"
+    ],
+    "kept": "ISIC_0010534",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009919",
+     "ISIC_0021055"
+    ],
+    "kept": "ISIC_0009919",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010137",
+     "ISIC_0023766"
+    ],
+    "kept": "ISIC_0010137",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010261",
+     "ISIC_0021272"
+    ],
+    "kept": "ISIC_0010261",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010199",
+     "ISIC_0022370"
+    ],
+    "kept": "ISIC_0010199",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010280",
+     "ISIC_0022793"
+    ],
+    "kept": "ISIC_0010280",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009950",
+     "ISIC_0021187"
+    ],
+    "kept": "ISIC_0009950",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010774",
+     "ISIC_0021270"
+    ],
+    "kept": "ISIC_0010774",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000413",
+     "ISIC_0022022"
+    ],
+    "kept": "ISIC_0022022",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000410",
+     "ISIC_0021917"
+    ],
+    "kept": "ISIC_0021917",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000404",
+     "ISIC_0021293"
+    ],
+    "kept": "ISIC_0021293",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010734",
+     "ISIC_0021909"
+    ],
+    "kept": "ISIC_0010734",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010597",
+     "ISIC_0022328"
+    ],
+    "kept": "ISIC_0010597",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010571",
+     "ISIC_0023046"
+    ],
+    "kept": "ISIC_0010571",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009974",
+     "ISIC_0024102"
+    ],
+    "kept": "ISIC_0009974",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010013",
+     "ISIC_0021152"
+    ],
+    "kept": "ISIC_0010013",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012628",
+     "ISIC_0021494"
+    ],
+    "kept": "ISIC_0012628",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012599",
+     "ISIC_0022646"
+    ],
+    "kept": "ISIC_0012599",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009911",
+     "ISIC_0022795"
+    ],
+    "kept": "ISIC_0009911",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011022",
+     "ISIC_0021052"
+    ],
+    "kept": "ISIC_0011022",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010606",
+     "ISIC_0021790"
+    ],
+    "kept": "ISIC_0010606",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011262",
+     "ISIC_0021579"
+    ],
+    "kept": "ISIC_0011262",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011379",
+     "ISIC_0022261"
+    ],
+    "kept": "ISIC_0011379",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011224",
+     "ISIC_0024113"
+    ],
+    "kept": "ISIC_0011224",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010908",
+     "ISIC_0020960"
+    ],
+    "kept": "ISIC_0010908",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010905",
+     "ISIC_0022972"
+    ],
+    "kept": "ISIC_0010905",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010859",
+     "ISIC_0021311"
+    ],
+    "kept": "ISIC_0010859",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010818",
+     "ISIC_0023657"
+    ],
+    "kept": "ISIC_0010818",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011237",
+     "ISIC_0021260"
+    ],
+    "kept": "ISIC_0011237",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011166",
+     "ISIC_0023806"
+    ],
+    "kept": "ISIC_0011166",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011137",
+     "ISIC_0022306"
+    ],
+    "kept": "ISIC_0011137",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011029",
+     "ISIC_0023911"
+    ],
+    "kept": "ISIC_0011029",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011082",
+     "ISIC_0023936"
+    ],
+    "kept": "ISIC_0011082",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0022685",
+     "ISIC_0036073"
+    ],
+    "kept": "ISIC_0022685",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0022616",
+     "ISIC_0036090"
+    ],
+    "kept": "ISIC_0022616",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0022315",
+     "ISIC_0036095"
+    ],
+    "kept": "ISIC_0022315",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010785",
+     "ISIC_0022571"
+    ],
+    "kept": "ISIC_0010785",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010394",
+     "ISIC_0021491"
+    ],
+    "kept": "ISIC_0010394",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009912",
+     "ISIC_0022182"
+    ],
+    "kept": "ISIC_0009912",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010486",
+     "ISIC_0021442"
+    ],
+    "kept": "ISIC_0010486",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010506",
+     "ISIC_0023915"
+    ],
+    "kept": "ISIC_0010506",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010074",
+     "ISIC_0023832"
+    ],
+    "kept": "ISIC_0010074",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009943",
+     "ISIC_0023920"
+    ],
+    "kept": "ISIC_0009943",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009960",
+     "ISIC_0021780"
+    ],
+    "kept": "ISIC_0009960",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010005",
+     "ISIC_0021156"
+    ],
+    "kept": "ISIC_0010005",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010017",
+     "ISIC_0024116"
+    ],
+    "kept": "ISIC_0010017",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010024",
+     "ISIC_0021646"
+    ],
+    "kept": "ISIC_0010024",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010064",
+     "ISIC_0022727"
+    ],
+    "kept": "ISIC_0010064",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010568",
+     "ISIC_0021114"
+    ],
+    "kept": "ISIC_0010568",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010624",
+     "ISIC_0022103"
+    ],
+    "kept": "ISIC_0010624",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000406",
+     "ISIC_0021622"
+    ],
+    "kept": "ISIC_0021622",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010716",
+     "ISIC_0023158"
+    ],
+    "kept": "ISIC_0010716",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010730",
+     "ISIC_0022597"
+    ],
+    "kept": "ISIC_0010730",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010766",
+     "ISIC_0022286"
+    ],
+    "kept": "ISIC_0010766",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010181",
+     "ISIC_0023711"
+    ],
+    "kept": "ISIC_0010181",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012644",
+     "ISIC_0021073"
+    ],
+    "kept": "ISIC_0012644",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012627",
+     "ISIC_0021602"
+    ],
+    "kept": "ISIC_0012627",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011334",
+     "ISIC_0024095"
+    ],
+    "kept": "ISIC_0011334",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010834",
+     "ISIC_0024193"
+    ],
+    "kept": "ISIC_0010834",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010767",
+     "ISIC_0021480"
+    ],
+    "kept": "ISIC_0010767",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010798",
+     "ISIC_0021836"
+    ],
+    "kept": "ISIC_0010798",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011277",
+     "ISIC_0023762"
+    ],
+    "kept": "ISIC_0011277",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010907",
+     "ISIC_0020957"
+    ],
+    "kept": "ISIC_0010907",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011049",
+     "ISIC_0021132"
+    ],
+    "kept": "ISIC_0011049",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011031",
+     "ISIC_0023631"
+    ],
+    "kept": "ISIC_0011031",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0022155",
+     "ISIC_0036107"
+    ],
+    "kept": "ISIC_0022155",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0021168",
+     "ISIC_0036285"
+    ],
+    "kept": "ISIC_0021168",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010780",
+     "ISIC_0021244"
+    ],
+    "kept": "ISIC_0010780",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010220",
+     "ISIC_0021769"
+    ],
+    "kept": "ISIC_0010220",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009873",
+     "ISIC_0022230"
+    ],
+    "kept": "ISIC_0009873",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010147",
+     "ISIC_0023926"
+    ],
+    "kept": "ISIC_0010147",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010246",
+     "ISIC_0023146"
+    ],
+    "kept": "ISIC_0010246",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009961",
+     "ISIC_0023079"
+    ],
+    "kept": "ISIC_0009961",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010729",
+     "ISIC_0024119"
+    ],
+    "kept": "ISIC_0010729",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009963",
+     "ISIC_0023692"
+    ],
+    "kept": "ISIC_0009963",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010148",
+     "ISIC_0022123"
+    ],
+    "kept": "ISIC_0010148",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011340",
+     "ISIC_0021611"
+    ],
+    "kept": "ISIC_0011340",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011364",
+     "ISIC_0021271"
+    ],
+    "kept": "ISIC_0011364",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011263",
+     "ISIC_0021587"
+    ],
+    "kept": "ISIC_0011263",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010267",
+     "ISIC_0023880"
+    ],
+    "kept": null,
+    "reason": "conflicting labels MEL vs OTHER"
+   },
+   {
+    "images": [
+     "ISIC_0010789",
+     "ISIC_0021473"
+    ],
+    "kept": "ISIC_0010789",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011366",
+     "ISIC_0021745"
+    ],
+    "kept": "ISIC_0011366",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012290",
+     "ISIC_0013594"
+    ],
+    "kept": "ISIC_0013594",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010995",
+     "ISIC_0023836"
+    ],
+    "kept": "ISIC_0010995",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010994",
+     "ISIC_0023833",
+     "ISIC_0023839"
+    ],
+    "kept": null,
+    "reason": "conflicting labels MEL vs NV"
+   },
+   {
+    "images": [
+     "ISIC_0010927",
+     "ISIC_0023698"
+    ],
+    "kept": "ISIC_0010927",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010910",
+     "ISIC_0020989"
+    ],
+    "kept": "ISIC_0010910",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010808",
+     "ISIC_0022246"
+    ],
+    "kept": "ISIC_0010808",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011058",
+     "ISIC_0023813"
+    ],
+    "kept": "ISIC_0011058",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011039",
+     "ISIC_0022379"
+    ],
+    "kept": "ISIC_0011039",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012613",
+     "ISIC_0021915",
+     "ISIC_0021916"
+    ],
+    "kept": "ISIC_0012613",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012568",
+     "ISIC_0023099"
+    ],
+    "kept": "ISIC_0012568",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010268",
+     "ISIC_0023883"
+    ],
+    "kept": "ISIC_0010268",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009940",
+     "ISIC_0021414"
+    ],
+    "kept": "ISIC_0009940",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010030",
+     "ISIC_0021447"
+    ],
+    "kept": "ISIC_0010030",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010749",
+     "ISIC_0021997"
+    ],
+    "kept": "ISIC_0010749",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009964",
+     "ISIC_0023693"
+    ],
+    "kept": "ISIC_0009964",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000393",
+     "ISIC_0023642"
+    ],
+    "kept": "ISIC_0023642",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010519",
+     "ISIC_0021174"
+    ],
+    "kept": "ISIC_0010519",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011371",
+     "ISIC_0024083"
+    ],
+    "kept": "ISIC_0011371",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010912",
+     "ISIC_0021687"
+    ],
+    "kept": "ISIC_0010912",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010890",
+     "ISIC_0021166"
+    ],
+    "kept": "ISIC_0010890",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010829",
+     "ISIC_0021757"
+    ],
+    "kept": "ISIC_0010829",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010809",
+     "ISIC_0022255"
+    ],
+    "kept": "ISIC_0010809",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012630",
+     "ISIC_0021405"
+    ],
+    "kept": "ISIC_0012630",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009880",
+     "ISIC_0023768"
+    ],
+    "kept": "ISIC_0009880",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010475",
+     "ISIC_0023112"
+    ],
+    "kept": "ISIC_0010475",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010518",
+     "ISIC_0021169"
+    ],
+    "kept": "ISIC_0010518",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010077",
+     "ISIC_0021762"
+    ],
+    "kept": "ISIC_0010077",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010607",
+     "ISIC_0023829"
+    ],
+    "kept": "ISIC_0010607",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009968",
+     "ISIC_0022429"
+    ],
+    "kept": "ISIC_0009968",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010104",
+     "ISIC_0024180"
+    ],
+    "kept": "ISIC_0010104",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011050",
+     "ISIC_0021200"
+    ],
+    "kept": "ISIC_0011050",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010938",
+     "ISIC_0023685"
+    ],
+    "kept": "ISIC_0010938",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010750",
+     "ISIC_0022003"
+    ],
+    "kept": "ISIC_0010750",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011292",
+     "ISIC_0022181"
+    ],
+    "kept": "ISIC_0011292",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011139",
+     "ISIC_0022317"
+    ],
+    "kept": "ISIC_0011139",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011077",
+     "ISIC_0022399"
+    ],
+    "kept": "ISIC_0011077",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010435",
+     "ISIC_0021679"
+    ],
+    "kept": "ISIC_0010435",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010173",
+     "ISIC_0023792"
+    ],
+    "kept": "ISIC_0010173",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009957",
+     "ISIC_0021700"
+    ],
+    "kept": "ISIC_0009957",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009971",
+     "ISIC_0023890"
+    ],
+    "kept": "ISIC_0009971",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010651",
+     "ISIC_0023710"
+    ],
+    "kept": "ISIC_0010651",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000428",
+     "ISIC_0023297"
+    ],
+    "kept": "ISIC_0023297",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010828",
+     "ISIC_0021736"
+    ],
+    "kept": "ISIC_0010828",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010510",
+     "ISIC_0022609"
+    ],
+    "kept": "ISIC_0010510",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010336",
+     "ISIC_0021342"
+    ],
+    "kept": "ISIC_0010336",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010271",
+     "ISIC_0024085"
+    ],
+    "kept": "ISIC_0010271",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010247",
+     "ISIC_0021332"
+    ],
+    "kept": "ISIC_0010247",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010918",
+     "ISIC_0021599"
+    ],
+    "kept": "ISIC_0010918",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010711",
+     "ISIC_0021585"
+    ],
+    "kept": "ISIC_0010711",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011391",
+     "ISIC_0023637"
+    ],
+    "kept": "ISIC_0023637",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010423",
+     "ISIC_0024005"
+    ],
+    "kept": null,
+    "reason": "conflicting labels MEL vs OTHER"
+   },
+   {
+    "images": [
+     "ISIC_0009898",
+     "ISIC_0023769"
+    ],
+    "kept": "ISIC_0009898",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010211",
+     "ISIC_0021902"
+    ],
+    "kept": "ISIC_0010211",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0025226",
+     "ISIC_0030074"
+    ],
+    "kept": "ISIC_0025226",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010982",
+     "ISIC_0022156"
+    ],
+    "kept": "ISIC_0010982",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010923",
+     "ISIC_0023744"
+    ],
+    "kept": "ISIC_0010923",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010533",
+     "ISIC_0021800"
+    ],
+    "kept": "ISIC_0010533",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009955",
+     "ISIC_0021908"
+    ],
+    "kept": "ISIC_0009955",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011215",
+     "ISIC_0021264"
+    ],
+    "kept": "ISIC_0011215",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010487",
+     "ISIC_0021738"
+    ],
+    "kept": "ISIC_0010487",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009989",
+     "ISIC_0022059"
+    ],
+    "kept": "ISIC_0009989",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010569",
+     "ISIC_0022926"
+    ],
+    "kept": "ISIC_0010569",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011349",
+     "ISIC_0021816"
+    ],
+    "kept": "ISIC_0011349",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009916",
+     "ISIC_0023116",
+     "ISIC_0023119"
+    ],
+    "kept": "ISIC_0009916",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010188",
+     "ISIC_0021232"
+    ],
+    "kept": "ISIC_0010188",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010485",
+     "ISIC_0021439"
+    ],
+    "kept": "ISIC_0010485",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010182",
+     "ISIC_0023714"
+    ],
+    "kept": "ISIC_0010182",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011138",
+     "ISIC_0022312"
+    ],
+    "kept": "ISIC_0011138",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010049",
+     "ISIC_0021295"
+    ],
+    "kept": "ISIC_0010049",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009976",
+     "ISIC_0021089"
+    ],
+    "kept": "ISIC_0009976",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011133",
+     "ISIC_0021267"
+    ],
+    "kept": "ISIC_0011133",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010488",
+     "ISIC_0022828"
+    ],
+    "kept": "ISIC_0010488",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010494",
+     "ISIC_0021336"
+    ],
+    "kept": "ISIC_0010494",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010197",
+     "ISIC_0022364"
+    ],
+    "kept": "ISIC_0010197",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009922",
+     "ISIC_0021572"
+    ],
+    "kept": "ISIC_0009922",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012672",
+     "ISIC_0012673"
+    ],
+    "kept": "ISIC_0012672",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010878",
+     "ISIC_0021328"
+    ],
+    "kept": "ISIC_0010878",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012639",
+     "ISIC_0021155"
+    ],
+    "kept": "ISIC_0012639",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010029",
+     "ISIC_0021399"
+    ],
+    "kept": "ISIC_0010029",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011273",
+     "ISIC_0021728"
+    ],
+    "kept": "ISIC_0011273",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011161",
+     "ISIC_0024108"
+    ],
+    "kept": "ISIC_0011161",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010414",
+     "ISIC_0023647"
+    ],
+    "kept": "ISIC_0010414",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010765",
+     "ISIC_0022083"
+    ],
+    "kept": "ISIC_0010765",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009915",
+     "ISIC_0021752"
+    ],
+    "kept": "ISIC_0009915",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010535",
+     "ISIC_0023499"
+    ],
+    "kept": "ISIC_0010535",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010388",
+     "ISIC_0021389"
+    ],
+    "kept": "ISIC_0010388",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011032",
+     "ISIC_0021183"
+    ],
+    "kept": "ISIC_0011032",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010143",
+     "ISIC_0021710"
+    ],
+    "kept": "ISIC_0010143",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_1143976",
+     "ISIC_8172964"
+    ],
+    "kept": "ISIC_1143976",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010580",
+     "ISIC_0021426"
+    ],
+    "kept": "ISIC_0010580",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010503",
+     "ISIC_0024032"
+    ],
+    "kept": "ISIC_0010503",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010130",
+     "ISIC_0021935",
+     "ISIC_0021936"
+    ],
+    "kept": "ISIC_0010130",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010909",
+     "ISIC_0020985"
+    ],
+    "kept": "ISIC_0010909",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010528",
+     "ISIC_0022681"
+    ],
+    "kept": "ISIC_0010528",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010221",
+     "ISIC_0021613"
+    ],
+    "kept": "ISIC_0010221",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010359",
+     "ISIC_0020998"
+    ],
+    "kept": "ISIC_0010359",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010026",
+     "ISIC_0022015",
+     "ISIC_0022016"
+    ],
+    "kept": "ISIC_0010026",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010737",
+     "ISIC_0021921"
+    ],
+    "kept": "ISIC_0010737",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0011368",
+     "ISIC_0021093"
+    ],
+    "kept": "ISIC_0011368",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000171",
+     "ISIC_0015124"
+    ],
+    "kept": "ISIC_0015124",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010770",
+     "ISIC_0021978"
+    ],
+    "kept": "ISIC_0010770",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012594",
+     "ISIC_0023286"
+    ],
+    "kept": "ISIC_0012594",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010320",
+     "ISIC_0023623"
+    ],
+    "kept": "ISIC_0010320",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0010165",
+     "ISIC_0022102"
+    ],
+    "kept": "ISIC_0010165",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000163",
+     "ISIC_0011951"
+    ],
+    "kept": "ISIC_0011951",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0009908",
+     "ISIC_0021497"
+    ],
+    "kept": "ISIC_0009908",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000174",
+     "ISIC_0015071"
+    ],
+    "kept": "ISIC_0015071",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000173",
+     "ISIC_0015110"
+    ],
+    "kept": "ISIC_0015110",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000164",
+     "ISIC_0014795"
+    ],
+    "kept": "ISIC_0014795",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000165",
+     "ISIC_0014788"
+    ],
+    "kept": "ISIC_0000165",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000162",
+     "ISIC_0014826"
+    ],
+    "kept": "ISIC_0014826",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0001152",
+     "ISIC_0023103",
+     "ISIC_0023109",
+     "ISIC_0023110"
+    ],
+    "kept": "ISIC_0023103",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0000168",
+     "ISIC_0015190"
+    ],
+    "kept": "ISIC_0015190",
+    "reason": "copies of one photo"
+   },
+   {
+    "images": [
+     "ISIC_0012735",
+     "ISIC_0030859"
+    ],
+    "kept": "ISIC_0030859",
+    "reason": "copies of one photo"
+   }
+  ]
+ },
+ "cv_subsample": null,
+ "elapsed_seconds": 13959.9,
+ "figures": [
+  "class_counts.png",
+  "missing_by_class.png",
+  "missing_patterns.png",
+  "association.png",
+  "age_approx_by_class.png",
+  "clin_size_long_diam_mm_by_class.png",
+  "missing_vs_other_fields.png",
+  "missing_vs_other_fields_within_label.png",
+  "acquisition_by_class.png",
+  "resolution_by_class.png",
+  "image_stats.png",
+  "shortcut_cv.png",
+  "complete_case_bias.png",
+  "group_size.png",
+  "feature_importance.png",
+  "missingness_confusion.png",
+  "categorical_by_class.png",
+  "null_distributions.png",
+  "missingness_mechanism.png",
+  "complete_case_smd.png"
+ ]
+}

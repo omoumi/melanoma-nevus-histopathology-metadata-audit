@@ -1,0 +1,27 @@
+acquisition,label,border_mean_r,border_mean_g,border_mean_b,border_lum_std,dark_corner_share,center_to_border_lum,mean_r,mean_g,mean_b,lum_std,bytes_per_pixel
+Anonymous,BKL,174.443,148.053,157.899,17.811,0.0,1.091,191.831,165.07,176.059,18.332,0.048
+Anonymous,MEL,175.592,144.134,135.236,18.377,0.0,0.905,174.941,137.575,127.884,27.467,0.063
+Anonymous,NV,186.002,156.487,147.274,14.376,0.0,0.924,184.635,150.162,138.912,24.203,0.063
+Anonymous,OTHER,172.038,143.308,131.053,13.738,0.0,1.031,179.442,148.626,136.947,20.535,0.05
+"Department of Dermatology, Hospital Clínic de Barcelona",MEL,175.992,133.006,106.346,20.366,0.0,0.753,176.972,119.704,94.693,30.875,0.096
+"Department of Dermatology, Medical University of Vienna",MEL,184.309,111.899,93.348,23.036,0.0,0.637,172.96,93.654,69.83,37.754,0.124
+"Department of Dermatology, Medical University of Vienna",NV,181.118,123.469,118.433,23.936,0.0,0.929,191.825,131.841,123.467,35.837,0.117
+Dr. Julien Anriot,MEL,178.594,137.332,120.271,12.842,0.0,0.602,154.543,109.373,84.582,45.058,0.087
+Hospital Clínic de Barcelona,MEL,145.888,126.548,120.444,37.018,0.381,0.978,150.88,126.886,120.548,52.682,0.066
+Hospital Clínic de Barcelona,NV,168.931,157.273,152.491,20.444,0.0,0.831,163.923,145.9,138.687,39.286,0.056
+Hospital Italiano de Buenos Aires,MEL,167.075,137.702,129.735,43.089,0.031,0.952,166.583,136.52,130.703,52.051,0.076
+Hospital Italiano de Buenos Aires,NV,189.741,159.686,143.676,19.842,0.0,0.831,184.317,152.27,140.203,38.325,0.085
+MILK study team,MEL,182.675,148.298,157.061,16.358,0.0,0.801,177.808,137.413,144.517,32.118,0.11
+MILK study team,NV,184.823,155.508,164.537,12.318,0.0,0.851,181.368,147.466,154.448,28.785,0.096
+Memorial Sloan Kettering Cancer Center,MEL,163.198,128.205,118.632,32.463,0.038,1.267,190.436,150.05,134.163,32.442,0.068
+Memorial Sloan Kettering Cancer Center,NV,159.562,130.448,127.704,33.082,0.033,1.368,190.078,158.452,151.727,34.213,0.066
+Memorial Sloan Kettering Cancer Center,OTHER,154.754,117.001,123.031,33.33,0.018,1.501,191.57,152.246,149.819,36.837,0.071
+Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital,MEL,220.952,211.141,212.587,40.12,0.0,0.898,207.198,190.37,191.995,36.291,0.071
+Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital,NV,222.073,214.234,217.033,39.392,0.0,0.926,207.42,192.539,195.431,35.884,0.076
+"Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital, Pascale Guitera",MEL,177.309,154.037,153.213,18.369,0.0,0.927,178.294,147.528,148.059,23.329,0.053
+"Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital, Pascale Guitera",NV,181.14,154.188,156.131,20.908,0.0,0.923,183.821,149.434,147.056,27.415,0.052
+"The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre",MEL,205.264,156.83,163.915,21.068,0.0,1.091,217.242,162.41,160.549,21.767,0.067
+"The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre",NV,219.622,177.612,184.448,18.125,0.0,1.091,232.301,190.565,194.142,18.765,0.056
+"The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre",OTHER,218.97,169.523,169.655,19.129,0.0,1.118,232.953,182.428,182.124,19.298,0.058
+"ViDIR Group, Department of Dermatology, Medical University of Vienna",MEL,192.909,120.822,120.859,11.874,0.0,0.76,181.725,103.651,110.032,25.598,0.07
+"ViDIR Group, Department of Dermatology, Medical University of Vienna",NV,193.92,120.153,125.645,12.316,0.0,0.803,187.715,109.857,116.457,25.295,0.073

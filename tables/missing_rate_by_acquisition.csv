@@ -1,0 +1,13 @@
+acquisition,miss_age_approx,miss_clin_size_long_diam_mm,miss_sex,miss_anatom_site_1,miss_fitzpatrick_skin_type,miss_personal_hx_mm,miss_family_hx_mm,complete,complete_core
+Anonymous,0.0548,0.756,0.0437,0.1024,1.0,0.5205,0.5326,0.0,0.8617
+"Department of Dermatology, Hospital Clínic de Barcelona",0.0,1.0,0.0,0.0391,1.0,1.0,1.0,0.0,0.9609
+"Department of Dermatology, Medical University of Vienna",0.4872,1.0,0.4872,0.5,1.0,1.0,1.0,0.0,0.5
+Dr. Julien Anriot,0.0,1.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0
+Hospital Clínic de Barcelona,0.0062,1.0,0.0062,0.0668,1.0,1.0,1.0,0.0,0.9275
+Hospital Italiano de Buenos Aires,0.0029,1.0,0.0029,0.0546,0.0661,0.296,0.4741,0.0,0.9397
+MILK study team,0.0185,1.0,0.0161,0.0314,1.0,1.0,1.0,0.0,0.964
+Memorial Sloan Kettering Cancer Center,0.0,0.4059,0.0,0.0372,0.801,0.801,0.8015,0.1966,0.9628
+Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0,1.0
+"Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital, Pascale Guitera",0.0,1.0,0.0,0.0,0.4915,1.0,1.0,0.0,1.0
+"The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre",0.0,0.9802,0.0,0.0,1.0,0.0495,0.1485,0.0,1.0
+"ViDIR Group, Department of Dermatology, Medical University of Vienna",0.0,1.0,0.0,0.6471,1.0,1.0,1.0,0.0,0.3529

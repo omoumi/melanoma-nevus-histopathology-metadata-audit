@@ -1,0 +1,403 @@
+image_id,group_id,label,acquisition,age_approx,clin_size_long_diam_mm,sex,anatom_site_1,fitzpatrick_skin_type,personal_hx_mm,family_hx_mm
+ISIC_0080539,IP_5440286,MEL,Memorial Sloan Kettering Cancer Center,50.0,5.4,female,Head and neck,III,True,True
+ISIC_0131983,IP_7498505,NV,Memorial Sloan Kettering Cancer Center,85.0,4.0,male,Trunk,II,False,False
+ISIC_0178370,IP_8819261,NV,Memorial Sloan Kettering Cancer Center,80.0,8.2,male,Trunk,III,True,False
+ISIC_0202119,IP_0916785,MEL,Memorial Sloan Kettering Cancer Center,40.0,4.2,female,Lower extremity,II,True,True
+ISIC_0211399,IP_1764181,NV,Memorial Sloan Kettering Cancer Center,75.0,5.7,female,Trunk,II,True,False
+ISIC_0235696,IP_4853824,MEL,Memorial Sloan Kettering Cancer Center,65.0,7.1,male,Trunk,III,False,False
+ISIC_0261253,IP_6924850,MEL,Memorial Sloan Kettering Cancer Center,65.0,15.1,male,Upper extremity,I,True,True
+ISIC_0283070,IP_9653442,NV,Memorial Sloan Kettering Cancer Center,85.0,2.9,female,Lower extremity,II,True,True
+ISIC_0292899,IP_1083924,MEL,Memorial Sloan Kettering Cancer Center,60.0,8.6,female,Head and neck,I,True,True
+ISIC_0324472,IP_7349538,NV,Memorial Sloan Kettering Cancer Center,25.0,5.6,female,Trunk,II,False,False
+ISIC_0346815,IP_5653891,MEL,Memorial Sloan Kettering Cancer Center,75.0,10.0,female,Upper extremity,II,True,False
+ISIC_0375034,IP_8313778,MEL,Memorial Sloan Kettering Cancer Center,55.0,10.1,male,Trunk,III,True,True
+ISIC_0413563,IP_2014423,MEL,Memorial Sloan Kettering Cancer Center,70.0,11.7,male,Upper extremity,II,False,False
+ISIC_0429987,IP_2099877,NV,Memorial Sloan Kettering Cancer Center,45.0,7.1,male,Upper extremity,II,False,False
+ISIC_0437256,IP_3124248,NV,Memorial Sloan Kettering Cancer Center,60.0,4.6,female,Lower extremity,II,False,False
+ISIC_0465400,IP_7666532,NV,Memorial Sloan Kettering Cancer Center,30.0,5.2,female,Trunk,III,False,True
+ISIC_0475038,IP_6975468,NV,Memorial Sloan Kettering Cancer Center,75.0,7.2,male,Trunk,III,False,True
+ISIC_0495210,IP_5357927,NV,Memorial Sloan Kettering Cancer Center,25.0,15.1,female,Trunk,I,True,False
+ISIC_0498990,IP_8333628,NV,Memorial Sloan Kettering Cancer Center,30.0,5.6,male,Trunk,II,False,True
+ISIC_0510774,IP_6489650,NV,Memorial Sloan Kettering Cancer Center,50.0,11.1,female,Trunk,III,False,False
+ISIC_0513012,IP_6509091,OTHER,Memorial Sloan Kettering Cancer Center,70.0,3.4,female,Trunk,III,False,False
+ISIC_0558656,IP_1083924,NV,Memorial Sloan Kettering Cancer Center,60.0,9.5,female,Lower extremity,I,True,True
+ISIC_0582421,IP_7525385,NV,Memorial Sloan Kettering Cancer Center,55.0,8.4,female,Trunk,III,True,False
+ISIC_0614911,IP_8039173,NV,Memorial Sloan Kettering Cancer Center,55.0,4.9,male,Trunk,III,False,True
+ISIC_0648545,IP_0697119,MEL,Memorial Sloan Kettering Cancer Center,85.0,12.6,male,Upper extremity,II,False,False
+ISIC_0657897,IP_3158554,NV,Memorial Sloan Kettering Cancer Center,25.0,5.4,male,Lower extremity,II,False,True
+ISIC_0705477,IP_3015474,MEL,Memorial Sloan Kettering Cancer Center,60.0,7.3,male,Upper extremity,II,False,True
+ISIC_0743395,IP_1981263,NV,Memorial Sloan Kettering Cancer Center,55.0,4.3,female,Upper extremity,III,False,False
+ISIC_0806140,IP_7919791,NV,Memorial Sloan Kettering Cancer Center,20.0,9.1,female,Trunk,II,False,True
+ISIC_0807504,IP_7412246,NV,Memorial Sloan Kettering Cancer Center,60.0,10.6,female,Trunk,III,False,True
+ISIC_0848012,IP_9563768,NV,Memorial Sloan Kettering Cancer Center,55.0,6.6,female,Trunk,IV,True,True
+ISIC_0900188,IP_9673587,NV,Memorial Sloan Kettering Cancer Center,60.0,4.6,female,Lower extremity,III,False,False
+ISIC_0901635,IP_5549010,NV,Memorial Sloan Kettering Cancer Center,35.0,8.9,female,Trunk,III,False,False
+ISIC_0908291,IP_9383306,NV,Memorial Sloan Kettering Cancer Center,55.0,6.3,female,Head and neck,III,True,True
+ISIC_0923581,IP_8193249,NV,Memorial Sloan Kettering Cancer Center,50.0,3.2,female,Trunk,II,True,False
+ISIC_0928328,IP_5781199,NV,Memorial Sloan Kettering Cancer Center,55.0,6.1,female,Lower extremity,II,False,True
+ISIC_0984817,IP_8090593,MEL,Memorial Sloan Kettering Cancer Center,80.0,8.5,female,Lower extremity,I,True,False
+ISIC_1007406,IP_0599018,NV,Memorial Sloan Kettering Cancer Center,55.0,5.3,male,Trunk,II,True,False
+ISIC_1019322,IP_3128864,NV,Memorial Sloan Kettering Cancer Center,50.0,5.7,female,Trunk,II,False,False
+ISIC_1033970,IP_3700608,NV,Memorial Sloan Kettering Cancer Center,40.0,3.9,male,Trunk,II,True,True
+ISIC_1071362,IP_3919700,NV,Memorial Sloan Kettering Cancer Center,45.0,3.8,male,Trunk,II,True,True
+ISIC_1089722,IP_5641461,NV,Memorial Sloan Kettering Cancer Center,40.0,6.5,female,Lower extremity,II,False,True
+ISIC_1097830,IP_3619869,NV,Memorial Sloan Kettering Cancer Center,65.0,10.7,male,Trunk,I,False,False
+ISIC_1166740,IP_4171206,MEL,Memorial Sloan Kettering Cancer Center,75.0,8.6,male,Trunk,II,True,True
+ISIC_1204130,IP_2071814,NV,Memorial Sloan Kettering Cancer Center,40.0,5.6,female,Lower extremity,II,False,False
+ISIC_1216542,IP_4993809,NV,Memorial Sloan Kettering Cancer Center,30.0,3.6,male,Trunk,III,True,True
+ISIC_1236175,IP_4567115,NV,Memorial Sloan Kettering Cancer Center,20.0,6.8,female,Trunk,I,True,True
+ISIC_1254469,IP_6270741,MEL,Memorial Sloan Kettering Cancer Center,55.0,5.4,female,Lower extremity,III,False,False
+ISIC_1279356,IP_2711304,NV,Memorial Sloan Kettering Cancer Center,75.0,2.8,female,Lower extremity,II,False,False
+ISIC_1358080,IP_1400932,NV,Memorial Sloan Kettering Cancer Center,55.0,3.4,male,Lower extremity,I,True,False
+ISIC_1380829,IP_3068702,NV,Memorial Sloan Kettering Cancer Center,40.0,5.7,female,Upper extremity,III,True,True
+ISIC_1403411,IP_7331185,NV,Memorial Sloan Kettering Cancer Center,35.0,2.6,female,Upper extremity,III,False,True
+ISIC_1406593,IP_6893721,NV,Memorial Sloan Kettering Cancer Center,75.0,3.1,female,Trunk,III,False,True
+ISIC_1423737,IP_9653634,MEL,Memorial Sloan Kettering Cancer Center,75.0,9.2,male,Trunk,II,True,False
+ISIC_1467266,IP_3266584,NV,Memorial Sloan Kettering Cancer Center,50.0,3.9,male,Trunk,I,True,False
+ISIC_1474512,IP_4633465,NV,Memorial Sloan Kettering Cancer Center,70.0,2.2,male,Lower extremity,II,True,False
+ISIC_1498757,IP_9744773,NV,Memorial Sloan Kettering Cancer Center,50.0,9.7,male,Trunk,III,True,False
+ISIC_1540369,IP_3158554,NV,Memorial Sloan Kettering Cancer Center,25.0,2.8,male,Upper extremity,II,False,True
+ISIC_1546866,IP_6988706,NV,Memorial Sloan Kettering Cancer Center,65.0,4.6,female,Trunk,III,False,False
+ISIC_1576116,IP_7770500,NV,Memorial Sloan Kettering Cancer Center,60.0,6.8,male,Trunk,III,True,False
+ISIC_1578878,IP_5621209,MEL,Memorial Sloan Kettering Cancer Center,85.0,10.2,male,Head and neck,III,True,False
+ISIC_1581537,IP_5951155,NV,Memorial Sloan Kettering Cancer Center,75.0,4.1,male,Trunk,II,True,False
+ISIC_1620821,IP_5900484,NV,Memorial Sloan Kettering Cancer Center,45.0,2.6,female,Trunk,II,True,False
+ISIC_1626055,IP_4950891,NV,Memorial Sloan Kettering Cancer Center,60.0,6.0,female,Trunk,II,False,True
+ISIC_1635827,IP_3462372,NV,Memorial Sloan Kettering Cancer Center,65.0,4.0,female,Trunk,III,False,False
+ISIC_1652988,IP_5900484,NV,Memorial Sloan Kettering Cancer Center,45.0,3.6,female,Trunk,II,True,False
+ISIC_1693572,IP_9741985,MEL,Memorial Sloan Kettering Cancer Center,70.0,9.7,male,Upper extremity,II,False,False
+ISIC_1694817,IP_2560383,MEL,Memorial Sloan Kettering Cancer Center,30.0,4.5,male,Lower extremity,II,False,False
+ISIC_1699688,IP_8166166,MEL,Memorial Sloan Kettering Cancer Center,80.0,9.4,male,Trunk,III,True,True
+ISIC_1705827,IP_8674482,NV,Memorial Sloan Kettering Cancer Center,55.0,4.4,female,Upper extremity,III,False,False
+ISIC_1718882,IP_2865917,NV,Memorial Sloan Kettering Cancer Center,40.0,4.5,male,Upper extremity,IV,False,True
+ISIC_1765228,IP_5737852,NV,Memorial Sloan Kettering Cancer Center,60.0,4.4,male,Trunk,III,False,False
+ISIC_1776777,IP_3813847,MEL,Memorial Sloan Kettering Cancer Center,80.0,7.8,female,Lower extremity,II,True,True
+ISIC_1789103,IP_5789947,NV,Memorial Sloan Kettering Cancer Center,80.0,4.2,female,Upper extremity,III,True,False
+ISIC_1789206,IP_5369571,NV,Memorial Sloan Kettering Cancer Center,45.0,4.9,female,Upper extremity,II,False,True
+ISIC_1791886,IP_5565239,NV,Memorial Sloan Kettering Cancer Center,75.0,3.4,male,Trunk,III,True,True
+ISIC_1814941,IP_7717848,MEL,Memorial Sloan Kettering Cancer Center,70.0,10.4,female,Upper extremity,II,True,True
+ISIC_1822966,IP_0131886,NV,Memorial Sloan Kettering Cancer Center,50.0,3.6,male,Upper extremity,IV,False,False
+ISIC_1850674,IP_6723298,MEL,Memorial Sloan Kettering Cancer Center,75.0,6.9,male,Lower extremity,II,True,False
+ISIC_1901340,IP_3068702,NV,Memorial Sloan Kettering Cancer Center,40.0,4.7,female,Trunk,III,True,True
+ISIC_1942883,IP_2236806,NV,Memorial Sloan Kettering Cancer Center,30.0,4.9,male,Upper extremity,II,False,True
+ISIC_1951839,IP_4173362,NV,Memorial Sloan Kettering Cancer Center,40.0,4.2,female,Trunk,II,True,True
+ISIC_2003991,IP_7717848,MEL,Memorial Sloan Kettering Cancer Center,70.0,8.8,female,Upper extremity,II,True,True
+ISIC_2005634,IP_5866533,NV,Memorial Sloan Kettering Cancer Center,65.0,2.8,male,Trunk,III,True,False
+ISIC_2010889,IP_2944777,MEL,Memorial Sloan Kettering Cancer Center,65.0,7.8,female,Upper extremity,II,False,True
+ISIC_2030748,IP_5333319,NV,Memorial Sloan Kettering Cancer Center,75.0,4.2,male,Trunk,II,False,False
+ISIC_2078543,IP_4509193,NV,Memorial Sloan Kettering Cancer Center,40.0,5.3,male,Trunk,III,False,False
+ISIC_2140551,IP_6988706,NV,Memorial Sloan Kettering Cancer Center,65.0,4.4,female,Trunk,III,False,False
+ISIC_2144549,IP_6147295,NV,Memorial Sloan Kettering Cancer Center,55.0,4.1,male,Lower extremity,II,False,False
+ISIC_2149878,IP_3785831,MEL,Memorial Sloan Kettering Cancer Center,70.0,6.7,male,Upper extremity,II,True,True
+ISIC_2194390,IP_8948648,NV,Memorial Sloan Kettering Cancer Center,45.0,4.2,female,Trunk,II,True,False
+ISIC_2237022,IP_0831054,NV,Memorial Sloan Kettering Cancer Center,35.0,2.1,male,Trunk,III,False,False
+ISIC_2238901,IP_0194184,NV,Memorial Sloan Kettering Cancer Center,65.0,7.6,female,Trunk,III,True,False
+ISIC_2256331,IP_9391134,NV,Memorial Sloan Kettering Cancer Center,40.0,5.9,female,Upper extremity,II,True,True
+ISIC_2256819,IP_4345335,NV,Memorial Sloan Kettering Cancer Center,50.0,2.9,female,Lower extremity,II,False,True
+ISIC_2358324,IP_5867372,NV,Memorial Sloan Kettering Cancer Center,35.0,3.6,female,Trunk,II,True,False
+ISIC_2382511,IP_8182508,NV,Memorial Sloan Kettering Cancer Center,55.0,4.4,female,Trunk,III,False,False
+ISIC_2418276,IP_3778684,NV,Memorial Sloan Kettering Cancer Center,20.0,5.5,female,Trunk,II,True,True
+ISIC_2427899,IP_2040291,MEL,Memorial Sloan Kettering Cancer Center,60.0,10.9,male,Head and neck,II,True,False
+ISIC_2431690,IP_3734488,NV,Memorial Sloan Kettering Cancer Center,55.0,4.3,male,Lower extremity,III,True,False
+ISIC_2448897,IP_8464783,MEL,Memorial Sloan Kettering Cancer Center,65.0,15.8,male,Head and neck,II,True,False
+ISIC_2504585,IP_5267744,NV,Memorial Sloan Kettering Cancer Center,60.0,13.0,male,Trunk,III,True,True
+ISIC_2513018,IP_1988953,MEL,Memorial Sloan Kettering Cancer Center,65.0,8.6,male,Trunk,II,True,True
+ISIC_2530060,IP_3158554,NV,Memorial Sloan Kettering Cancer Center,25.0,4.5,male,Upper extremity,II,False,True
+ISIC_2559263,IP_1580164,NV,Memorial Sloan Kettering Cancer Center,70.0,4.1,female,Upper extremity,II,False,True
+ISIC_2625894,IP_1988953,NV,Memorial Sloan Kettering Cancer Center,65.0,3.4,male,Upper extremity,II,True,True
+ISIC_2663597,IP_7497380,MEL,Memorial Sloan Kettering Cancer Center,65.0,6.5,male,Head and neck,III,True,True
+ISIC_2703002,IP_9274667,NV,Memorial Sloan Kettering Cancer Center,65.0,10.6,female,Lower extremity,II,False,False
+ISIC_2712088,IP_8137084,NV,Memorial Sloan Kettering Cancer Center,40.0,1.8,female,Upper extremity,II,False,False
+ISIC_2712615,IP_8607082,NV,Memorial Sloan Kettering Cancer Center,65.0,2.6,male,Trunk,III,True,False
+ISIC_2717192,IP_1253621,MEL,Memorial Sloan Kettering Cancer Center,75.0,5.3,female,Trunk,II,True,False
+ISIC_2722204,IP_3003160,OTHER,Memorial Sloan Kettering Cancer Center,65.0,5.8,male,Trunk,III,False,False
+ISIC_2728309,IP_1590637,NV,Memorial Sloan Kettering Cancer Center,40.0,14.6,female,Trunk,II,False,True
+ISIC_2738580,IP_6954173,NV,Memorial Sloan Kettering Cancer Center,25.0,5.5,female,Trunk,III,False,True
+ISIC_2757332,IP_7915407,MEL,Memorial Sloan Kettering Cancer Center,50.0,4.1,female,Upper extremity,III,False,False
+ISIC_2806230,IP_8041141,NV,Memorial Sloan Kettering Cancer Center,25.0,10.7,female,Trunk,II,True,True
+ISIC_2867416,IP_3719928,MEL,Memorial Sloan Kettering Cancer Center,50.0,3.2,male,Upper extremity,III,True,False
+ISIC_2891360,IP_3235031,NV,Memorial Sloan Kettering Cancer Center,45.0,3.4,male,Head and neck,III,False,False
+ISIC_2976456,IP_1007812,NV,Memorial Sloan Kettering Cancer Center,45.0,5.5,male,Trunk,III,False,True
+ISIC_3004642,IP_3023235,OTHER,Memorial Sloan Kettering Cancer Center,50.0,9.0,female,Trunk,II,False,False
+ISIC_3031536,IP_9628485,NV,Memorial Sloan Kettering Cancer Center,40.0,4.6,female,Lower extremity,II,True,False
+ISIC_3056854,IP_0743466,MEL,Memorial Sloan Kettering Cancer Center,75.0,7.2,male,Head and neck,II,True,True
+ISIC_3060145,IP_2698506,NV,Memorial Sloan Kettering Cancer Center,70.0,8.9,male,Trunk,III,True,True
+ISIC_3077674,IP_6079478,MEL,Memorial Sloan Kettering Cancer Center,65.0,7.8,female,Lower extremity,II,True,False
+ISIC_3139292,IP_3792900,OTHER,Memorial Sloan Kettering Cancer Center,75.0,4.7,male,Lower extremity,II,True,True
+ISIC_3157754,IP_6259834,NV,Memorial Sloan Kettering Cancer Center,40.0,3.7,female,Trunk,II,True,True
+ISIC_3162213,IP_0180807,MEL,Memorial Sloan Kettering Cancer Center,35.0,4.8,female,Upper extremity,III,False,True
+ISIC_3199142,IP_2099877,NV,Memorial Sloan Kettering Cancer Center,45.0,5.6,male,Trunk,II,False,False
+ISIC_3210973,IP_1229253,NV,Memorial Sloan Kettering Cancer Center,55.0,3.7,female,Trunk,II,False,False
+ISIC_3314382,IP_6178092,NV,Memorial Sloan Kettering Cancer Center,45.0,2.7,female,Lower extremity,II,True,False
+ISIC_3323866,IP_3028432,MEL,Memorial Sloan Kettering Cancer Center,65.0,6.8,male,Lower extremity,II,True,False
+ISIC_3326332,IP_0055203,NV,Memorial Sloan Kettering Cancer Center,50.0,5.4,female,Trunk,III,True,True
+ISIC_3332716,IP_3003160,NV,Memorial Sloan Kettering Cancer Center,65.0,4.2,male,Trunk,III,False,False
+ISIC_3339372,IP_7666532,NV,Memorial Sloan Kettering Cancer Center,30.0,2.1,female,Lower extremity,III,False,True
+ISIC_3364243,IP_6848590,NV,Memorial Sloan Kettering Cancer Center,65.0,4.0,male,Trunk,III,True,False
+ISIC_3410585,IP_3883953,NV,Memorial Sloan Kettering Cancer Center,70.0,2.2,male,Lower extremity,IV,False,False
+ISIC_3430886,IP_5102067,NV,Memorial Sloan Kettering Cancer Center,25.0,3.6,female,Trunk,II,False,True
+ISIC_3450746,IP_8895851,NV,Memorial Sloan Kettering Cancer Center,40.0,3.2,female,Lower extremity,I,False,True
+ISIC_3467133,IP_6098503,NV,Memorial Sloan Kettering Cancer Center,30.0,3.1,female,Upper extremity,II,False,True
+ISIC_3468952,IP_8855910,NV,Memorial Sloan Kettering Cancer Center,70.0,5.3,male,Trunk,II,True,True
+ISIC_3477573,IP_2520256,NV,Memorial Sloan Kettering Cancer Center,30.0,4.4,female,Trunk,III,False,False
+ISIC_3563953,IP_6094585,NV,Memorial Sloan Kettering Cancer Center,60.0,4.1,female,Trunk,III,False,False
+ISIC_3567510,IP_1835920,NV,Memorial Sloan Kettering Cancer Center,25.0,4.1,male,Trunk,III,False,True
+ISIC_3580083,IP_1299649,NV,Memorial Sloan Kettering Cancer Center,70.0,6.5,male,Upper extremity,II,True,False
+ISIC_3591834,IP_8286761,NV,Memorial Sloan Kettering Cancer Center,70.0,4.5,female,Lower extremity,III,False,True
+ISIC_3594441,IP_3003077,NV,Memorial Sloan Kettering Cancer Center,60.0,7.3,female,Trunk,II,False,False
+ISIC_3596982,IP_1764181,NV,Memorial Sloan Kettering Cancer Center,75.0,5.0,female,Upper extremity,II,True,False
+ISIC_3622379,IP_6028537,NV,Memorial Sloan Kettering Cancer Center,65.0,8.8,male,Trunk,II,True,False
+ISIC_3640326,IP_3645407,NV,Memorial Sloan Kettering Cancer Center,45.0,3.2,female,Trunk,III,False,True
+ISIC_3640764,IP_3633451,NV,Memorial Sloan Kettering Cancer Center,70.0,9.3,female,Trunk,III,True,False
+ISIC_3654052,IP_4900609,NV,Memorial Sloan Kettering Cancer Center,50.0,8.2,female,Upper extremity,II,False,True
+ISIC_3658280,IP_7189199,MEL,Memorial Sloan Kettering Cancer Center,60.0,9.7,male,Head and neck,II,True,True
+ISIC_3740014,IP_0464165,MEL,Memorial Sloan Kettering Cancer Center,80.0,19.1,female,Head and neck,I,False,False
+ISIC_3758135,IP_0456231,NV,Memorial Sloan Kettering Cancer Center,50.0,4.1,male,Upper extremity,IV,False,False
+ISIC_3783915,IP_0055203,NV,Memorial Sloan Kettering Cancer Center,50.0,4.4,female,Lower extremity,III,True,True
+ISIC_3807635,IP_0115444,NV,Memorial Sloan Kettering Cancer Center,80.0,5.2,male,Trunk,II,True,False
+ISIC_3868516,IP_0814408,NV,Memorial Sloan Kettering Cancer Center,40.0,6.7,female,Upper extremity,II,False,True
+ISIC_3875865,IP_5514319,NV,Memorial Sloan Kettering Cancer Center,75.0,6.9,male,Trunk,II,False,False
+ISIC_3883666,IP_8979396,NV,Memorial Sloan Kettering Cancer Center,55.0,6.0,female,Trunk,III,False,False
+ISIC_3958338,IP_5102067,NV,Memorial Sloan Kettering Cancer Center,25.0,4.8,female,Trunk,II,False,True
+ISIC_3962368,IP_1007812,NV,Memorial Sloan Kettering Cancer Center,45.0,4.0,male,Lower extremity,III,False,True
+ISIC_3987802,IP_0814408,NV,Memorial Sloan Kettering Cancer Center,40.0,5.2,female,Lower extremity,II,False,True
+ISIC_3992319,IP_0488532,NV,Memorial Sloan Kettering Cancer Center,20.0,3.8,female,Lower extremity,II,True,False
+ISIC_4032749,IP_0583992,NV,Memorial Sloan Kettering Cancer Center,40.0,5.6,female,Upper extremity,II,True,True
+ISIC_4094938,IP_1645936,NV,Memorial Sloan Kettering Cancer Center,65.0,3.5,female,Trunk,II,False,False
+ISIC_4097868,IP_6924850,MEL,Memorial Sloan Kettering Cancer Center,65.0,8.0,male,Trunk,I,True,True
+ISIC_4138044,IP_8489106,NV,Memorial Sloan Kettering Cancer Center,35.0,7.4,male,Trunk,II,True,True
+ISIC_4141315,IP_3204625,NV,Memorial Sloan Kettering Cancer Center,75.0,4.2,female,Trunk,II,True,False
+ISIC_4223497,IP_5086285,MEL,Memorial Sloan Kettering Cancer Center,70.0,20.0,male,Upper extremity,II,False,True
+ISIC_4263628,IP_5984385,NV,Memorial Sloan Kettering Cancer Center,55.0,2.3,female,Lower extremity,III,False,True
+ISIC_4263716,IP_2978802,NV,Memorial Sloan Kettering Cancer Center,25.0,5.7,female,Trunk,II,False,False
+ISIC_4270993,IP_0326654,NV,Memorial Sloan Kettering Cancer Center,70.0,3.7,female,Upper extremity,II,True,True
+ISIC_4313479,IP_1026346,NV,Memorial Sloan Kettering Cancer Center,55.0,2.2,female,Trunk,II,False,True
+ISIC_4355015,IP_6624700,NV,Memorial Sloan Kettering Cancer Center,65.0,7.2,male,Trunk,III,True,False
+ISIC_4403481,IP_8105755,NV,Memorial Sloan Kettering Cancer Center,60.0,6.7,male,Trunk,IV,False,False
+ISIC_4432308,IP_4788725,NV,Memorial Sloan Kettering Cancer Center,40.0,2.7,female,Upper extremity,III,False,False
+ISIC_4438786,IP_1874944,NV,Memorial Sloan Kettering Cancer Center,50.0,4.9,female,Upper extremity,II,False,False
+ISIC_4438982,IP_2963926,NV,Memorial Sloan Kettering Cancer Center,75.0,3.3,male,Upper extremity,III,True,False
+ISIC_4438999,IP_5436066,NV,Memorial Sloan Kettering Cancer Center,65.0,4.3,female,Trunk,II,False,False
+ISIC_4457091,IP_7410598,NV,Memorial Sloan Kettering Cancer Center,70.0,11.3,female,Lower extremity,II,False,False
+ISIC_4473151,IP_2294443,NV,Memorial Sloan Kettering Cancer Center,65.0,7.2,female,Trunk,II,True,False
+ISIC_4485499,IP_0733130,NV,Memorial Sloan Kettering Cancer Center,55.0,3.0,male,Trunk,III,True,False
+ISIC_4487501,IP_5852035,NV,Memorial Sloan Kettering Cancer Center,80.0,4.2,male,Trunk,III,True,True
+ISIC_4522789,IP_3129527,NV,Memorial Sloan Kettering Cancer Center,60.0,4.4,female,Upper extremity,II,False,True
+ISIC_4534665,IP_3055954,NV,Memorial Sloan Kettering Cancer Center,50.0,3.0,female,Lower extremity,III,True,True
+ISIC_4595996,IP_7602686,NV,Memorial Sloan Kettering Cancer Center,75.0,4.0,female,Lower extremity,II,True,False
+ISIC_4596521,IP_5989034,NV,Memorial Sloan Kettering Cancer Center,45.0,8.0,male,Trunk,IV,False,True
+ISIC_4615762,IP_3204625,MEL,Memorial Sloan Kettering Cancer Center,75.0,9.7,female,Trunk,II,True,False
+ISIC_4676341,IP_2698506,NV,Memorial Sloan Kettering Cancer Center,70.0,3.6,male,Trunk,III,True,True
+ISIC_4691689,IP_3096889,MEL,Memorial Sloan Kettering Cancer Center,75.0,10.4,male,Upper extremity,II,True,False
+ISIC_4708741,IP_4938382,NV,Memorial Sloan Kettering Cancer Center,30.0,3.8,female,Upper extremity,II,True,True
+ISIC_4722397,IP_8193249,NV,Memorial Sloan Kettering Cancer Center,50.0,4.8,female,Trunk,II,True,False
+ISIC_4724569,IP_7452604,NV,Memorial Sloan Kettering Cancer Center,30.0,2.3,female,Lower extremity,II,False,True
+ISIC_4733754,IP_4421863,NV,Memorial Sloan Kettering Cancer Center,75.0,17.9,female,Trunk,II,False,False
+ISIC_4760917,IP_7022212,NV,Memorial Sloan Kettering Cancer Center,35.0,3.4,female,Trunk,II,False,True
+ISIC_4787531,IP_1535132,NV,Memorial Sloan Kettering Cancer Center,40.0,2.6,female,Lower extremity,II,False,False
+ISIC_4810485,IP_7308167,NV,Memorial Sloan Kettering Cancer Center,75.0,7.1,female,Upper extremity,II,True,False
+ISIC_4835535,IP_9278714,NV,Memorial Sloan Kettering Cancer Center,35.0,5.6,male,Trunk,II,True,False
+ISIC_4848011,IP_5980386,NV,Memorial Sloan Kettering Cancer Center,55.0,2.3,female,Trunk,II,True,True
+ISIC_4850167,IP_0814408,NV,Memorial Sloan Kettering Cancer Center,40.0,3.9,female,Trunk,II,False,True
+ISIC_4852295,IP_2712283,NV,Memorial Sloan Kettering Cancer Center,65.0,5.3,male,Trunk,III,False,False
+ISIC_4955345,IP_4326247,NV,Memorial Sloan Kettering Cancer Center,75.0,5.0,female,Upper extremity,II,False,False
+ISIC_4974820,IP_2804258,NV,Memorial Sloan Kettering Cancer Center,55.0,4.0,male,Trunk,II,False,False
+ISIC_5003606,IP_6200159,NV,Memorial Sloan Kettering Cancer Center,70.0,4.3,female,Trunk,II,False,True
+ISIC_5012399,IP_3094998,NV,Memorial Sloan Kettering Cancer Center,75.0,4.8,female,Lower extremity,II,False,False
+ISIC_5063454,IP_6559812,NV,Memorial Sloan Kettering Cancer Center,35.0,5.6,male,Trunk,II,True,False
+ISIC_5080908,IP_0599018,NV,Memorial Sloan Kettering Cancer Center,55.0,5.2,male,Lower extremity,II,True,False
+ISIC_5109388,IP_2712283,OTHER,Memorial Sloan Kettering Cancer Center,65.0,8.4,male,Trunk,III,False,False
+ISIC_5133582,IP_8607082,NV,Memorial Sloan Kettering Cancer Center,65.0,9.8,male,Trunk,III,True,False
+ISIC_5156491,IP_6575300,MEL,Memorial Sloan Kettering Cancer Center,70.0,12.9,male,Upper extremity,I,True,False
+ISIC_5212679,IP_3055954,NV,Memorial Sloan Kettering Cancer Center,50.0,8.6,female,Trunk,III,True,True
+ISIC_5241686,IP_8182508,NV,Memorial Sloan Kettering Cancer Center,55.0,5.0,female,Trunk,III,False,False
+ISIC_5261089,IP_6200159,OTHER,Memorial Sloan Kettering Cancer Center,70.0,4.7,female,Head and neck,II,False,True
+ISIC_5296963,IP_8793688,MEL,Memorial Sloan Kettering Cancer Center,70.0,2.5,female,Upper extremity,I,False,True
+ISIC_5309897,IP_7233679,NV,Memorial Sloan Kettering Cancer Center,55.0,4.7,female,Trunk,II,True,True
+ISIC_5336115,IP_0770240,NV,Memorial Sloan Kettering Cancer Center,40.0,4.6,female,Trunk,II,False,True
+ISIC_5358568,IP_4900609,NV,Memorial Sloan Kettering Cancer Center,50.0,6.5,female,Lower extremity,II,False,True
+ISIC_5367687,IP_0486641,NV,Memorial Sloan Kettering Cancer Center,60.0,4.7,female,Upper extremity,II,False,False
+ISIC_5390060,IP_6009680,NV,Memorial Sloan Kettering Cancer Center,80.0,19.4,male,Upper extremity,IV,True,False
+ISIC_5484708,IP_1170313,NV,Memorial Sloan Kettering Cancer Center,60.0,6.6,male,Upper extremity,III,False,False
+ISIC_5490257,IP_5544519,NV,Memorial Sloan Kettering Cancer Center,75.0,6.7,female,Trunk,II,True,False
+ISIC_5493841,IP_5102067,NV,Memorial Sloan Kettering Cancer Center,25.0,4.8,female,Trunk,II,False,True
+ISIC_5531260,IP_1268919,NV,Memorial Sloan Kettering Cancer Center,40.0,7.6,female,Trunk,II,False,False
+ISIC_5548532,IP_8489106,NV,Memorial Sloan Kettering Cancer Center,35.0,4.3,male,Trunk,II,True,True
+ISIC_5549257,IP_6098503,NV,Memorial Sloan Kettering Cancer Center,30.0,2.5,female,Lower extremity,II,False,True
+ISIC_5564843,IP_3039884,NV,Memorial Sloan Kettering Cancer Center,55.0,6.1,female,Trunk,II,False,False
+ISIC_5577211,IP_7602686,NV,Memorial Sloan Kettering Cancer Center,75.0,7.1,female,Trunk,II,True,False
+ISIC_5588496,IP_0733130,MEL,Memorial Sloan Kettering Cancer Center,55.0,9.8,male,Trunk,III,True,False
+ISIC_5638751,IP_6751477,NV,Memorial Sloan Kettering Cancer Center,50.0,1.6,female,Head and neck,II,True,True
+ISIC_5647607,IP_5748247,MEL,Memorial Sloan Kettering Cancer Center,70.0,5.4,female,Head and neck,I,True,False
+ISIC_5671218,IP_7655469,NV,Memorial Sloan Kettering Cancer Center,35.0,2.1,male,Head and neck,II,True,False
+ISIC_5683310,IP_8184118,NV,Memorial Sloan Kettering Cancer Center,55.0,5.4,male,Trunk,II,True,False
+ISIC_5744196,IP_8494850,MEL,Memorial Sloan Kettering Cancer Center,65.0,13.1,male,Trunk,III,True,False
+ISIC_5753627,IP_7308167,NV,Memorial Sloan Kettering Cancer Center,75.0,4.0,female,Upper extremity,II,True,False
+ISIC_5754023,IP_6569542,NV,Memorial Sloan Kettering Cancer Center,35.0,9.6,male,Trunk,III,False,False
+ISIC_5791954,IP_9620296,MEL,Memorial Sloan Kettering Cancer Center,75.0,5.0,male,Trunk,III,True,True
+ISIC_5809270,IP_5857920,NV,Memorial Sloan Kettering Cancer Center,45.0,3.4,female,Lower extremity,III,False,True
+ISIC_5809901,IP_5737852,NV,Memorial Sloan Kettering Cancer Center,60.0,4.6,male,Trunk,III,False,False
+ISIC_5841709,IP_5867372,NV,Memorial Sloan Kettering Cancer Center,35.0,4.4,female,Trunk,II,True,False
+ISIC_5858622,IP_7661679,NV,Memorial Sloan Kettering Cancer Center,25.0,5.4,female,Lower extremity,I,True,True
+ISIC_5891587,IP_9442934,NV,Memorial Sloan Kettering Cancer Center,50.0,5.3,female,Upper extremity,II,False,True
+ISIC_5901805,IP_8901760,NV,Memorial Sloan Kettering Cancer Center,60.0,5.8,male,Trunk,III,False,False
+ISIC_5905688,IP_1580164,NV,Memorial Sloan Kettering Cancer Center,70.0,7.4,female,Trunk,II,False,True
+ISIC_5923557,IP_5683980,MEL,Memorial Sloan Kettering Cancer Center,75.0,6.3,male,Trunk,IV,True,True
+ISIC_5926017,IP_9595111,NV,Memorial Sloan Kettering Cancer Center,45.0,3.0,female,Lower extremity,III,False,False
+ISIC_5991710,IP_0814408,NV,Memorial Sloan Kettering Cancer Center,40.0,5.9,female,Trunk,II,False,True
+ISIC_6004197,IP_1999627,MEL,Memorial Sloan Kettering Cancer Center,80.0,10.4,male,Lower extremity,II,True,False
+ISIC_6008220,IP_1371147,NV,Memorial Sloan Kettering Cancer Center,30.0,7.1,female,Trunk,II,False,True
+ISIC_6059858,IP_4462293,NV,Memorial Sloan Kettering Cancer Center,55.0,5.2,female,Upper extremity,II,True,True
+ISIC_6066990,IP_0484521,NV,Memorial Sloan Kettering Cancer Center,20.0,6.0,male,Trunk,II,False,False
+ISIC_6099563,IP_0796643,MEL,Memorial Sloan Kettering Cancer Center,55.0,6.7,male,Lower extremity,II,True,True
+ISIC_6119036,IP_1472711,NV,Memorial Sloan Kettering Cancer Center,60.0,4.9,male,Trunk,IV,False,False
+ISIC_6119202,IP_9526638,MEL,Memorial Sloan Kettering Cancer Center,60.0,6.3,male,Trunk,II,False,False
+ISIC_6135643,IP_6147295,MEL,Memorial Sloan Kettering Cancer Center,55.0,5.3,male,Head and neck,II,False,False
+ISIC_6163910,IP_6559812,NV,Memorial Sloan Kettering Cancer Center,35.0,3.8,male,Lower extremity,II,True,False
+ISIC_6165660,IP_3909069,NV,Memorial Sloan Kettering Cancer Center,20.0,5.1,female,Trunk,II,False,True
+ISIC_6279341,IP_7026588,NV,Memorial Sloan Kettering Cancer Center,65.0,6.9,male,Trunk,III,False,False
+ISIC_6285871,IP_3265003,NV,Memorial Sloan Kettering Cancer Center,45.0,4.9,female,Trunk,III,True,False
+ISIC_6295235,IP_3645407,NV,Memorial Sloan Kettering Cancer Center,45.0,5.5,female,Trunk,III,False,True
+ISIC_6369189,IP_6954479,MEL,Memorial Sloan Kettering Cancer Center,55.0,12.8,male,Lower extremity,II,False,False
+ISIC_6369740,IP_8112740,MEL,Memorial Sloan Kettering Cancer Center,60.0,7.8,male,Trunk,II,True,False
+ISIC_6410859,IP_8489445,MEL,Memorial Sloan Kettering Cancer Center,70.0,11.4,male,Trunk,II,False,False
+ISIC_6414435,IP_4938382,NV,Memorial Sloan Kettering Cancer Center,30.0,6.6,female,Lower extremity,II,True,True
+ISIC_6427430,IP_1638966,MEL,Memorial Sloan Kettering Cancer Center,45.0,5.9,male,Upper extremity,III,True,False
+ISIC_6473085,IP_7000194,NV,Memorial Sloan Kettering Cancer Center,65.0,4.0,female,Trunk,II,True,True
+ISIC_6556373,IP_3067207,MEL,Memorial Sloan Kettering Cancer Center,80.0,8.3,female,Lower extremity,II,True,True
+ISIC_6590224,IP_5383809,NV,Memorial Sloan Kettering Cancer Center,70.0,1.9,female,Lower extremity,III,False,False
+ISIC_6594866,IP_2557181,NV,Memorial Sloan Kettering Cancer Center,70.0,2.9,female,Lower extremity,I,False,False
+ISIC_6620748,IP_2850340,MEL,Memorial Sloan Kettering Cancer Center,35.0,10.8,female,Trunk,I,True,False
+ISIC_6634325,IP_1170337,NV,Memorial Sloan Kettering Cancer Center,40.0,8.5,female,Trunk,II,False,True
+ISIC_6668093,IP_8685501,MEL,Memorial Sloan Kettering Cancer Center,80.0,14.6,female,Trunk,I,True,False
+ISIC_6674797,IP_4439138,MEL,Memorial Sloan Kettering Cancer Center,60.0,5.0,male,Head and neck,II,True,False
+ISIC_6688399,IP_1146568,NV,Memorial Sloan Kettering Cancer Center,45.0,5.5,male,Trunk,II,True,True
+ISIC_6714923,IP_0743466,MEL,Memorial Sloan Kettering Cancer Center,75.0,10.2,male,Trunk,II,True,True
+ISIC_6721526,IP_5789947,NV,Memorial Sloan Kettering Cancer Center,75.0,5.2,female,Upper extremity,II,True,False
+ISIC_6730858,IP_8819261,NV,Memorial Sloan Kettering Cancer Center,80.0,7.2,male,Trunk,III,True,False
+ISIC_6751710,IP_2712283,NV,Memorial Sloan Kettering Cancer Center,65.0,8.3,male,Upper extremity,III,False,False
+ISIC_6767333,IP_5117877,NV,Memorial Sloan Kettering Cancer Center,30.0,6.2,female,Trunk,II,False,True
+ISIC_6792899,IP_8112740,MEL,Memorial Sloan Kettering Cancer Center,60.0,8.7,male,Trunk,II,True,False
+ISIC_6808448,IP_7331185,NV,Memorial Sloan Kettering Cancer Center,35.0,3.9,female,Lower extremity,III,False,True
+ISIC_6892286,IP_3056186,MEL,Memorial Sloan Kettering Cancer Center,75.0,9.4,male,Trunk,II,True,True
+ISIC_6900593,IP_5138158,NV,Memorial Sloan Kettering Cancer Center,65.0,5.6,male,Trunk,II,False,False
+ISIC_6952242,IP_4330259,NV,Memorial Sloan Kettering Cancer Center,50.0,4.8,male,Upper extremity,II,False,False
+ISIC_6959281,IP_1999627,MEL,Memorial Sloan Kettering Cancer Center,80.0,10.1,male,Trunk,II,True,False
+ISIC_6981855,IP_1764181,NV,Memorial Sloan Kettering Cancer Center,75.0,4.7,female,Upper extremity,II,True,False
+ISIC_7022381,IP_4077309,NV,Memorial Sloan Kettering Cancer Center,40.0,11.0,male,Trunk,I,True,True
+ISIC_7044414,IP_4665602,NV,Memorial Sloan Kettering Cancer Center,50.0,8.3,female,Trunk,II,True,False
+ISIC_7044973,IP_7452604,NV,Memorial Sloan Kettering Cancer Center,30.0,4.4,female,Lower extremity,II,False,True
+ISIC_7064613,IP_0488532,NV,Memorial Sloan Kettering Cancer Center,20.0,4.5,female,Lower extremity,II,True,False
+ISIC_7081248,IP_4898553,NV,Memorial Sloan Kettering Cancer Center,60.0,3.8,female,Trunk,IV,False,True
+ISIC_7092052,IP_0115444,MEL,Memorial Sloan Kettering Cancer Center,80.0,11.2,male,Head and neck,II,True,False
+ISIC_7097931,IP_7459704,MEL,Memorial Sloan Kettering Cancer Center,75.0,8.3,female,Upper extremity,II,False,False
+ISIC_7149190,IP_5565239,NV,Memorial Sloan Kettering Cancer Center,75.0,3.9,male,Trunk,III,True,True
+ISIC_7175690,IP_1566965,NV,Memorial Sloan Kettering Cancer Center,60.0,9.5,male,Trunk,IV,True,False
+ISIC_7203426,IP_3158554,NV,Memorial Sloan Kettering Cancer Center,25.0,3.4,male,Lower extremity,II,False,True
+ISIC_7230249,IP_9611346,NV,Memorial Sloan Kettering Cancer Center,50.0,5.3,male,Trunk,III,False,False
+ISIC_7236365,IP_6569660,MEL,Memorial Sloan Kettering Cancer Center,70.0,11.2,male,Trunk,IV,True,False
+ISIC_7252283,IP_7205082,NV,Memorial Sloan Kettering Cancer Center,65.0,4.1,female,Trunk,II,True,True
+ISIC_7254359,IP_1039004,MEL,Memorial Sloan Kettering Cancer Center,80.0,8.7,female,Lower extremity,I,True,False
+ISIC_7299650,IP_1472169,NV,Memorial Sloan Kettering Cancer Center,70.0,4.1,female,Upper extremity,II,False,False
+ISIC_7316506,IP_3289016,NV,Memorial Sloan Kettering Cancer Center,55.0,7.6,male,Upper extremity,III,True,True
+ISIC_7376121,IP_8313778,NV,Memorial Sloan Kettering Cancer Center,55.0,6.6,male,Upper extremity,III,True,True
+ISIC_7376567,IP_6213063,NV,Memorial Sloan Kettering Cancer Center,60.0,3.5,female,Upper extremity,II,False,True
+ISIC_7399648,IP_0599018,MEL,Memorial Sloan Kettering Cancer Center,55.0,5.9,male,Head and neck,II,True,False
+ISIC_7412327,IP_4082279,MEL,Memorial Sloan Kettering Cancer Center,80.0,16.0,male,Trunk,II,True,False
+ISIC_7486070,IP_1867420,NV,Memorial Sloan Kettering Cancer Center,50.0,4.1,male,Lower extremity,III,False,False
+ISIC_7486585,IP_8039173,NV,Memorial Sloan Kettering Cancer Center,55.0,5.0,male,Lower extremity,III,False,True
+ISIC_7509096,IP_0777867,NV,Memorial Sloan Kettering Cancer Center,50.0,3.9,female,Lower extremity,I,True,True
+ISIC_7559316,IP_7666532,NV,Memorial Sloan Kettering Cancer Center,30.0,4.0,female,Trunk,III,False,True
+ISIC_7564065,IP_9919430,NV,Memorial Sloan Kettering Cancer Center,55.0,7.6,male,Trunk,II,True,False
+ISIC_7576198,IP_3055954,NV,Memorial Sloan Kettering Cancer Center,50.0,4.1,female,Trunk,III,True,True
+ISIC_7581139,IP_0251730,NV,Memorial Sloan Kettering Cancer Center,55.0,6.0,female,Trunk,III,False,True
+ISIC_7609412,IP_7207550,NV,Memorial Sloan Kettering Cancer Center,60.0,5.3,male,Trunk,IV,False,False
+ISIC_7622188,IP_7971579,NV,Memorial Sloan Kettering Cancer Center,55.0,3.2,female,Upper extremity,III,False,False
+ISIC_7747165,IP_2698506,NV,Memorial Sloan Kettering Cancer Center,70.0,15.5,male,Trunk,III,True,True
+ISIC_7747712,IP_6924850,MEL,Memorial Sloan Kettering Cancer Center,65.0,9.6,male,Trunk,I,True,True
+ISIC_7755096,IP_2099877,MEL,Memorial Sloan Kettering Cancer Center,45.0,7.8,male,Trunk,II,False,False
+ISIC_7779155,IP_1007812,NV,Memorial Sloan Kettering Cancer Center,45.0,3.2,male,Trunk,III,False,True
+ISIC_7809510,IP_5383366,MEL,Memorial Sloan Kettering Cancer Center,65.0,10.2,male,Head and neck,I,True,False
+ISIC_7859727,IP_8182508,NV,Memorial Sloan Kettering Cancer Center,55.0,4.7,female,Upper extremity,III,False,False
+ISIC_8003201,IP_0952967,NV,Memorial Sloan Kettering Cancer Center,55.0,5.6,male,Trunk,III,False,False
+ISIC_8044265,IP_1532145,NV,Memorial Sloan Kettering Cancer Center,30.0,9.4,female,Trunk,II,False,True
+ISIC_8069559,IP_6250739,NV,Memorial Sloan Kettering Cancer Center,65.0,4.6,male,Trunk,II,False,False
+ISIC_8071637,IP_5864933,MEL,Memorial Sloan Kettering Cancer Center,65.0,4.8,female,Upper extremity,II,True,False
+ISIC_8082800,IP_1984395,NV,Memorial Sloan Kettering Cancer Center,65.0,5.0,male,Trunk,III,True,False
+ISIC_8088770,IP_0911575,NV,Memorial Sloan Kettering Cancer Center,50.0,5.9,male,Upper extremity,II,True,True
+ISIC_8152488,IP_2682513,NV,Memorial Sloan Kettering Cancer Center,65.0,7.5,male,Trunk,II,True,True
+ISIC_8172822,IP_8096012,MEL,Memorial Sloan Kettering Cancer Center,65.0,12.2,female,Trunk,II,True,False
+ISIC_8176952,IP_7687742,NV,Memorial Sloan Kettering Cancer Center,65.0,3.8,female,Trunk,II,False,True
+ISIC_8191057,IP_8898462,MEL,Memorial Sloan Kettering Cancer Center,60.0,4.8,female,Lower extremity,II,False,True
+ISIC_8233338,IP_2700722,NV,Memorial Sloan Kettering Cancer Center,70.0,4.9,male,Lower extremity,IV,False,False
+ISIC_8245615,IP_5079669,NV,Memorial Sloan Kettering Cancer Center,45.0,5.7,male,Trunk,II,True,True
+ISIC_8256480,IP_6575300,MEL,Memorial Sloan Kettering Cancer Center,70.0,10.4,male,Trunk,I,True,False
+ISIC_8278458,IP_2248025,MEL,Memorial Sloan Kettering Cancer Center,75.0,5.8,male,Trunk,II,True,True
+ISIC_8308321,IP_7819499,MEL,Memorial Sloan Kettering Cancer Center,65.0,3.4,female,Lower extremity,II,False,True
+ISIC_8425957,IP_9246199,NV,Memorial Sloan Kettering Cancer Center,50.0,9.3,female,Lower extremity,III,False,False
+ISIC_8430738,IP_2236806,NV,Memorial Sloan Kettering Cancer Center,30.0,4.1,male,Upper extremity,II,False,True
+ISIC_8438639,IP_1867420,NV,Memorial Sloan Kettering Cancer Center,50.0,4.4,male,Trunk,III,False,False
+ISIC_8457787,IP_4509193,NV,Memorial Sloan Kettering Cancer Center,40.0,1.5,male,Upper extremity,III,False,False
+ISIC_8476096,IP_9372681,NV,Memorial Sloan Kettering Cancer Center,40.0,1.8,female,Lower extremity,II,False,False
+ISIC_8482289,IP_7015662,NV,Memorial Sloan Kettering Cancer Center,55.0,5.4,male,Upper extremity,III,True,True
+ISIC_8576765,IP_5786579,NV,Memorial Sloan Kettering Cancer Center,60.0,3.6,female,Lower extremity,III,True,False
+ISIC_8579352,IP_2360609,NV,Memorial Sloan Kettering Cancer Center,50.0,3.8,male,Trunk,III,True,False
+ISIC_8587544,IP_7040321,NV,Memorial Sloan Kettering Cancer Center,65.0,4.9,female,Lower extremity,III,False,True
+ISIC_8609084,IP_5549010,NV,Memorial Sloan Kettering Cancer Center,35.0,3.3,female,Trunk,III,False,False
+ISIC_8633461,IP_8674482,NV,Memorial Sloan Kettering Cancer Center,55.0,2.8,female,Trunk,III,False,False
+ISIC_8644015,IP_1984395,NV,Memorial Sloan Kettering Cancer Center,65.0,3.5,male,Head and neck,III,True,False
+ISIC_8662803,IP_9826325,NV,Memorial Sloan Kettering Cancer Center,55.0,2.8,male,Lower extremity,III,False,False
+ISIC_8671119,IP_4898383,MEL,Memorial Sloan Kettering Cancer Center,35.0,6.9,male,Upper extremity,III,False,False
+ISIC_8708918,IP_7382179,MEL,Memorial Sloan Kettering Cancer Center,75.0,6.4,female,Trunk,I,True,False
+ISIC_8710108,IP_5621209,MEL,Memorial Sloan Kettering Cancer Center,85.0,13.2,male,Head and neck,III,True,False
+ISIC_8733345,IP_8313778,MEL,Memorial Sloan Kettering Cancer Center,55.0,8.1,male,Trunk,III,True,True
+ISIC_8761348,IP_2698506,NV,Memorial Sloan Kettering Cancer Center,70.0,7.7,male,Trunk,III,True,True
+ISIC_8851245,IP_8105755,NV,Memorial Sloan Kettering Cancer Center,60.0,7.7,male,Trunk,IV,False,False
+ISIC_8856365,IP_8200450,MEL,Memorial Sloan Kettering Cancer Center,60.0,5.8,male,Head and neck,II,False,False
+ISIC_8879477,IP_0583992,NV,Memorial Sloan Kettering Cancer Center,40.0,5.9,female,Upper extremity,II,True,True
+ISIC_8907232,IP_0117877,MEL,Memorial Sloan Kettering Cancer Center,65.0,9.5,male,Head and neck,III,False,False
+ISIC_8907509,IP_8837265,MEL,Memorial Sloan Kettering Cancer Center,55.0,10.6,male,Head and neck,IV,False,True
+ISIC_8961478,IP_1885773,MEL,Memorial Sloan Kettering Cancer Center,65.0,8.7,female,Lower extremity,II,True,True
+ISIC_9038840,IP_1170313,NV,Memorial Sloan Kettering Cancer Center,60.0,5.0,male,Lower extremity,III,False,False
+ISIC_9071073,IP_1097519,NV,Memorial Sloan Kettering Cancer Center,60.0,4.8,female,Trunk,III,False,False
+ISIC_9072639,IP_4050431,NV,Memorial Sloan Kettering Cancer Center,50.0,3.0,female,Upper extremity,I,True,False
+ISIC_9076331,IP_4889205,NV,Memorial Sloan Kettering Cancer Center,30.0,3.0,female,Trunk,II,False,False
+ISIC_9088073,IP_0030719,NV,Memorial Sloan Kettering Cancer Center,50.0,5.7,male,Trunk,II,False,True
+ISIC_9159477,IP_3039884,MEL,Memorial Sloan Kettering Cancer Center,55.0,8.0,female,Lower extremity,II,False,False
+ISIC_9179066,IP_2573038,NV,Memorial Sloan Kettering Cancer Center,55.0,7.3,male,Trunk,II,False,True
+ISIC_9201946,IP_0911575,NV,Memorial Sloan Kettering Cancer Center,50.0,3.5,male,Upper extremity,II,True,True
+ISIC_9214649,IP_4752560,MEL,Memorial Sloan Kettering Cancer Center,60.0,8.9,male,Trunk,II,True,False
+ISIC_9262713,IP_7026588,NV,Memorial Sloan Kettering Cancer Center,65.0,9.2,male,Trunk,III,False,False
+ISIC_9274936,IP_9801595,MEL,Memorial Sloan Kettering Cancer Center,60.0,4.8,male,Head and neck,II,True,True
+ISIC_9312051,IP_0801144,NV,Memorial Sloan Kettering Cancer Center,70.0,3.5,male,Trunk,III,True,False
+ISIC_9313458,IP_3068702,NV,Memorial Sloan Kettering Cancer Center,40.0,4.5,female,Trunk,III,True,True
+ISIC_9315277,IP_0911575,NV,Memorial Sloan Kettering Cancer Center,50.0,4.5,male,Lower extremity,II,True,True
+ISIC_9330230,IP_4504524,NV,Memorial Sloan Kettering Cancer Center,70.0,4.8,male,Trunk,III,False,False
+ISIC_9345697,IP_5980386,NV,Memorial Sloan Kettering Cancer Center,55.0,2.7,female,Trunk,II,True,True
+ISIC_9354524,IP_2248025,NV,Memorial Sloan Kettering Cancer Center,75.0,7.3,male,Trunk,II,True,True
+ISIC_9363532,IP_1779240,NV,Memorial Sloan Kettering Cancer Center,65.0,5.0,female,Trunk,III,True,False
+ISIC_9381247,IP_1146568,NV,Memorial Sloan Kettering Cancer Center,45.0,4.1,male,Trunk,II,True,True
+ISIC_9431118,IP_2071814,NV,Memorial Sloan Kettering Cancer Center,40.0,5.8,female,Trunk,II,False,False
+ISIC_9517555,IP_9975461,MEL,Memorial Sloan Kettering Cancer Center,80.0,19.1,male,Trunk,III,True,False
+ISIC_9527402,IP_3670868,NV,Memorial Sloan Kettering Cancer Center,60.0,3.9,male,Trunk,II,True,True
+ISIC_9565804,IP_4593426,NV,Memorial Sloan Kettering Cancer Center,65.0,7.5,female,Trunk,II,True,True
+ISIC_9572761,IP_3889950,MEL,Memorial Sloan Kettering Cancer Center,75.0,5.8,male,Trunk,I,True,False
+ISIC_9595194,IP_0770240,NV,Memorial Sloan Kettering Cancer Center,40.0,3.2,female,Trunk,II,False,True
+ISIC_9596388,IP_0260261,NV,Memorial Sloan Kettering Cancer Center,40.0,5.7,male,Upper extremity,III,False,False
+ISIC_9599761,IP_6953199,NV,Memorial Sloan Kettering Cancer Center,35.0,4.0,female,Trunk,II,True,True
+ISIC_9603587,IP_3055954,NV,Memorial Sloan Kettering Cancer Center,50.0,5.2,female,Trunk,III,True,True
+ISIC_9606863,IP_5789947,NV,Memorial Sloan Kettering Cancer Center,80.0,2.9,female,Trunk,III,True,False
+ISIC_9611660,IP_7067884,NV,Memorial Sloan Kettering Cancer Center,45.0,10.9,female,Head and neck,IV,False,False
+ISIC_9631113,IP_7965685,NV,Memorial Sloan Kettering Cancer Center,55.0,3.7,female,Lower extremity,III,True,False
+ISIC_9676056,IP_4875634,NV,Memorial Sloan Kettering Cancer Center,55.0,1.7,male,Lower extremity,III,False,False
+ISIC_9689764,IP_8112740,NV,Memorial Sloan Kettering Cancer Center,60.0,4.1,male,Trunk,II,True,False
+ISIC_9705935,IP_4377460,NV,Memorial Sloan Kettering Cancer Center,65.0,3.6,male,Trunk,I,True,False
+ISIC_9729661,IP_0699267,NV,Memorial Sloan Kettering Cancer Center,50.0,3.3,female,Lower extremity,III,False,True
+ISIC_9779834,IP_6118671,NV,Memorial Sloan Kettering Cancer Center,50.0,6.8,female,Trunk,II,False,True
+ISIC_9786863,IP_7250001,MEL,Memorial Sloan Kettering Cancer Center,65.0,14.5,male,Trunk,II,False,False
+ISIC_9799448,IP_0911575,NV,Memorial Sloan Kettering Cancer Center,50.0,3.8,male,Head and neck,II,True,True
+ISIC_9829086,IP_1506183,NV,Memorial Sloan Kettering Cancer Center,50.0,8.4,male,Trunk,II,False,False
+ISIC_9859873,IP_5789947,MEL,Memorial Sloan Kettering Cancer Center,75.0,6.8,female,Upper extremity,II,True,False
+ISIC_9881460,IP_5316403,MEL,Memorial Sloan Kettering Cancer Center,75.0,4.3,female,Lower extremity,II,True,True
+ISIC_9881690,IP_8804321,NV,Memorial Sloan Kettering Cancer Center,65.0,4.4,female,Trunk,II,False,False
+ISIC_9918922,IP_6094585,NV,Memorial Sloan Kettering Cancer Center,60.0,2.8,female,Lower extremity,III,False,False

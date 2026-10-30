@@ -1,0 +1,27 @@
+acquisition,label,megapixels,aspect,file_bytes
+Anonymous,BKL,7.078,1.33,318566.0
+Anonymous,MEL,7.078,1.33,400194.0
+Anonymous,NV,7.078,1.49,366953.0
+Anonymous,OTHER,7.078,1.33,289730.5
+"Department of Dermatology, Hospital Clínic de Barcelona",MEL,0.307,1.33,54164.0
+"Department of Dermatology, Medical University of Vienna",MEL,0.307,1.33,38177.0
+"Department of Dermatology, Medical University of Vienna",NV,0.307,1.33,35937.0
+Dr. Julien Anriot,MEL,0.45,1.03,41219.0
+Hospital Clínic de Barcelona,MEL,1.049,1.0,68800.0
+Hospital Clínic de Barcelona,NV,1.049,1.0,58297.0
+Hospital Italiano de Buenos Aires,MEL,1.229,1.02,91085.0
+Hospital Italiano de Buenos Aires,NV,2.074,1.33,187921.0
+MILK study team,MEL,0.27,1.33,29818.0
+MILK study team,NV,0.27,1.33,25837.0
+Memorial Sloan Kettering Cancer Center,MEL,7.99,1.33,525973.5
+Memorial Sloan Kettering Cancer Center,NV,7.99,1.33,524497.0
+Memorial Sloan Kettering Cancer Center,OTHER,7.99,1.33,566085.0
+Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital,MEL,5.934,1.0,461310.0
+Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital,NV,6.121,1.0,546302.0
+"Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital, Pascale Guitera",MEL,17.916,1.5,839522.5
+"Sydney Melanoma Diagnostic Center at Royal Prince Alfred Hospital, Pascale Guitera",NV,12.193,1.33,623063.0
+"The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre",MEL,24.0,1.5,1599497.0
+"The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre",NV,24.0,1.5,1324734.0
+"The University of Queensland Diamantina Institute, The University of Queensland, Dermatology Research Centre",OTHER,24.0,1.5,1384706.0
+"ViDIR Group, Department of Dermatology, Medical University of Vienna",MEL,1.971,1.78,138293.0
+"ViDIR Group, Department of Dermatology, Medical University of Vienna",NV,1.971,1.78,143892.0

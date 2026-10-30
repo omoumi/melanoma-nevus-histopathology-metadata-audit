@@ -1,0 +1,8 @@
+field,groups_with_several_images,groups_with_conflicting_values,groups_all_missing,groups_partly_missing,missingness_is_group_level
+age_approx,3790,144,44,21,False
+clin_size_long_diam_mm,3790,90,3687,18,False
+sex,3790,2,29,2,False
+anatom_site_1,3790,320,108,36,False
+fitzpatrick_skin_type,3790,1,3621,17,False
+personal_hx_mm,3790,1,3351,21,False
+family_hx_mm,3790,0,3376,21,False

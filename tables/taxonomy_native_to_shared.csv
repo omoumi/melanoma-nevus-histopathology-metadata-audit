@@ -1,0 +1,7 @@
+l1,benign,benign,benign,indeterminate,malignant,malignant
+l2,BKL,NV,OTHER,OTHER,MEL,OTHER
+label,,,,,,
+BKL,3,0,0,0,0,0
+MEL,0,0,0,0,7001,0
+NV,0,10631,0,0,0,0
+OTHER,0,0,21,77,0,10

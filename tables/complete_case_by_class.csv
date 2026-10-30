@@ -1,0 +1,7 @@
+,all,complete,complete,complete,complete,complete_core,complete_core,complete_core,complete_core
+,images,images,groups,patients,lesions,images,groups,patients,lesions
+label,,,,,,,,,
+MEL,7001,95,86,86,95,6375,2937,956,2399
+NV,10631,301,232,232,301,9862,5621,1400,4506
+BKL,3,0,0,0,0,3,1,1,0
+OTHER,108,6,6,6,6,108,44,36,8
